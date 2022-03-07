@@ -12,10 +12,12 @@ resource "aws_lambda_function" "reportsOnIncidents_lambdaFn" {
 
   role = aws_iam_role.reportsOnIncidents-lambda-role.arn
 
-#  environment {
-#    variables = {
-#    }
-#  }
+  environment {
+    variables = {
+      SECRET_ARN: aws_secretsmanager_secret.rds_credentials.arn,
+      RDS_DB_ARN: aws_rds_cluster.cluster.arn
+    }
+  }
 }
 
 resource "aws_cloudwatch_log_group" "reportsOnIncidents_logGroup" {
