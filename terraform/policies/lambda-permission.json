@@ -18,6 +18,24 @@
       ],
       "Resource": "arn:aws:logs:*:*:*",
       "Effect": "Allow"
+    },
+    {
+      "Sid": "RDSDataServiceAccess",
+      "Effect": "Allow",
+      "Action": [
+        "rds-data:ExecuteSql",
+        "rds-data:ExecuteStatement",
+        "rds-data:BatchExecuteStatement",
+        "rds-data:BeginTransaction",
+        "rds-data:CommitTransaction",
+        "rds-data:RollbackTransaction",
+        "secretsmanager:CreateSecret",
+        "secretsmanager:ListSecrets",
+        "secretsmanager:GetRandomPassword",
+        "secretsmanager:GetSecretValue",
+        "tag:GetResources"
+      ],
+      "Resource": "*"
     }
   ]
 }
