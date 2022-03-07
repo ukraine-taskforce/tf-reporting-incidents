@@ -3,19 +3,19 @@ resource "aws_s3_bucket" "ugt_lambda_states" {
   force_destroy = true
 }
 
-# Write to DynamoDB
-data "archive_file" "lambda_putDynamoDBHandler_file" {
+# Lambda (NodeJS) to Store Incident
+data "archive_file" "lambda_storeIncidentHandler_file" {
   type = "zip"
 
-  source_dir  = "${path.module}/../lambdas/putDynamoDBHandler"
-  output_path = "${path.module}/putDynamoDBHandler.zip"
+  source_dir  = "${path.module}/../lambdas/storeIncidentHandler"
+  output_path = "${path.module}/storeIncidentHandler.zip"
 }
 
-resource "aws_s3_object" "lambda_putDynamoDBHandler" {
+resource "aws_s3_object" "lambda_storeIncidentHandler" {
   bucket = aws_s3_bucket.ugt_lambda_states.id
 
-  key    = "putDynamoDBHandler.zip"
-  source = data.archive_file.lambda_putDynamoDBHandler_file.output_path
+  key    = "storeIncidentHandler.zip"
+  source = data.archive_file.lambda_storeIncidentHandler_file.output_path
 
-  etag = filemd5(data.archive_file.lambda_putDynamoDBHandler_file.output_path)
+  etag = filemd5(data.archive_file.lambda_storeIncidentHandler_file.output_path)
 }

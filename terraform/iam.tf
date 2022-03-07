@@ -35,8 +35,8 @@ resource "aws_iam_role_policy_attachment" "api_exec_role" {
   policy_arn = aws_iam_policy.api_policy.arn
 }
 
-resource "aws_iam_role" "reportsOnIncidents-sqs-dynamodb" {
-  name = "lambda_sqs_dynamodb"
+resource "aws_iam_role" "reportsOnIncidents-lambda-role" {
+  name = "lambda-role"
 
   assume_role_policy = <<EOF
 {
@@ -55,20 +55,19 @@ resource "aws_iam_role" "reportsOnIncidents-sqs-dynamodb" {
 EOF
 }
 
-data "template_file" "reportsOnIncidents-sqs-dynamodb-policyDocument" {
+data "template_file" "reportsOnIncidents-sqs-policyDocument" {
   template = file("policies/lambda-permission.json")
   vars = {
     sqs_arn = aws_sqs_queue.reporting-incidents_sqs.arn
-    dynamodbTable_arn = aws_dynamodb_table.ReportsOnIncidents-table.arn
   }
 }
 
-resource "aws_iam_policy" "reportsOnIncidents-sqs-dynamodb-policy" {
-  name   = "lambda_sqs-dynamodb-cloudwatch-policy"
-  policy = data.template_file.reportsOnIncidents-sqs-dynamodb-policyDocument.rendered
+resource "aws_iam_policy" "reportsOnIncidents-sqs-policy" {
+  name   = "lambda_sqs-cloudwatch-policy"
+  policy = data.template_file.reportsOnIncidents-sqs-policyDocument.rendered
 }
 
-resource "aws_iam_role_policy_attachment" "reportsOnIncidents-sqs-dynamodb" {
-  role       = aws_iam_role.reportsOnIncidents-sqs-dynamodb.name
-  policy_arn = aws_iam_policy.reportsOnIncidents-sqs-dynamodb-policy.arn
+resource "aws_iam_role_policy_attachment" "reportsOnIncidents-sqs" {
+  role       = aws_iam_role.reportsOnIncidents-lambda-role.name
+  policy_arn = aws_iam_policy.reportsOnIncidents-sqs-policy.arn
 }

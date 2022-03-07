@@ -21,3 +21,10 @@ resource "aws_rds_cluster_instance" "cluster_instances" {
 
   publicly_accessible = true
 }
+
+#TODO:
+#TODO: create database proxy on Lambda configuration
+#TODO: create secret manager with db credentials for LambdaProxy
+#TODO: create role to write Aurora DB
+#TODO: create policy to give read access to secret manager:
+        # secretsmanager:GetResourcePolicy, secretsmanager:GetSecretValue, secretsmanager:DescribeSecret, secretsmanager:ListSecretVersionIds

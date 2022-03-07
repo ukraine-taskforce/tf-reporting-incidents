@@ -1,22 +1,21 @@
-# Write reportsOnIncidents to DynamoDB
+# Lambda: Store reported incidents
 resource "aws_lambda_function" "reportsOnIncidents_lambdaFn" {
-  function_name = "ReportOnIncidents-PutDynamoDB"
+  function_name = "ReportOnIncidents-StoreIncident"
 
   s3_bucket = aws_s3_bucket.ugt_lambda_states.id
-  s3_key    = aws_s3_object.lambda_putDynamoDBHandler.key
+  s3_key    = aws_s3_object.lambda_storeIncidentHandler.key
 
   runtime = "nodejs14.x"
   handler = "index.handler"
 
-  source_code_hash = data.archive_file.lambda_putDynamoDBHandler_file.output_base64sha256
+  source_code_hash = data.archive_file.lambda_storeIncidentHandler_file.output_base64sha256
 
-  role = aws_iam_role.reportsOnIncidents-sqs-dynamodb.arn
+  role = aws_iam_role.reportsOnIncidents-lambda-role.arn
 
-  environment {
-    variables = {
-      TABLE_NAME = aws_dynamodb_table.ReportsOnIncidents-table.name
-    }
-  }
+#  environment {
+#    variables = {
+#    }
+#  }
 }
 
 resource "aws_cloudwatch_log_group" "reportsOnIncidents_logGroup" {
