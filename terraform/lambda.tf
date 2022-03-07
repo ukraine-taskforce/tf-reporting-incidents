@@ -39,3 +39,69 @@ resource "aws_lambda_event_source_mapping" "reportsOnIncidents_event_source_mapp
   function_name    =  aws_lambda_function.reportsOnIncidents_lambdaFn.arn
 }
 
+###### Bot client lambda
+
+resource "random_id" "id" {
+  byte_length = 8
+}
+
+resource "random_id" "random_path" {
+  byte_length = 16
+}
+
+variable "telegram_token" {
+  type      = string
+  sensitive = true
+}
+
+resource "null_resource" "bot-token-lambda-build" {
+  triggers = { dependencies_versions = filemd5("../lambdas/bot-client/requirements.txt") }
+
+  provisioner "local-exec" {
+    command = "pip install -r ../lambdas/bot-client/requirements.txt -t ../lambdas/bot-client/ --upgrade"
+  }
+}
+
+data "archive_file" "bot-token-archive" {
+  type        = "zip"
+  source_dir  = "${path.module}/../lambdas/bot-client/"
+  output_path = "${path.module}/bot-client.zip"
+
+  depends_on = [null_resource.bot-token-lambda-build]
+}
+
+resource "aws_lambda_function" "bot-client-lambda" {
+  function_name = "${random_id.id.hex}-telegram-bot"
+
+  filename         = data.archive_file.bot-token-archive.output_path
+  source_code_hash = data.archive_file.bot-token-archive.output_base64sha256
+  environment {
+    variables = {
+      domain          = aws_apigatewayv2_api.bot-client-api.api_endpoint
+      path_key        = random_id.random_path.hex
+      token_parameter = aws_ssm_parameter.telegram-bot-token.name
+    }
+  }
+
+  timeout = 30
+  handler = "main.lambda_handler"
+  runtime = "python3.9"
+  role    = aws_iam_role.bot-client-lambda-role.arn
+}
+
+data "aws_lambda_invocation" "bot-set_webhook" {
+  function_name = aws_lambda_function.bot-client-lambda.function_name
+
+  input = <<JSON
+{
+  "body": {
+    "setWebhook": true
+  }
+}
+JSON
+}
+
+resource "aws_cloudwatch_log_group" "botClientLogGroup" {
+  name              = "/aws/lambda/${aws_lambda_function.bot-client-lambda.function_name}"
+  retention_in_days = 14
+}
