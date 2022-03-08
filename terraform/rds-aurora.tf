@@ -10,6 +10,7 @@ resource "aws_rds_cluster" "cluster" {
   availability_zones      = ["eu-central-1a", "eu-central-1b", "eu-central-1c"]
   backup_retention_period = 5
   preferred_backup_window = "04:00-05:00"
+  deletion_protection     = true
 
   cluster_identifier      = "reporting-incidents-serverless"
   database_name           = "postgres"
