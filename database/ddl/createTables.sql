@@ -5,10 +5,10 @@ create table ugt.user
     id            uuid not null
         constraint user_pk
             primary key,
-    external_id   varchar(30),
+    external_id   varchar(30) not null,
     language_code varchar(10),
-    score         integer,
-    created_on    timestamp with time zone,
+    score         numeric(2) not null,
+    created_on    timestamp with time zone not null,
     blacklisted   bool default 'f'
 );
 
@@ -19,12 +19,12 @@ create table ugt.incident
             primary key,
     incident_timestamp timestamp with time zone not null,
     incident_type      varchar(30)              not null,
-    location_lat       varchar(30),
-    location_long      varchar(30),
+    location_lat       double precision,
+    location_lon       double precision,
     distance           varchar(30),
     status             varchar(30)              not null,
-    score              integer,
-    blacklisted        bool default 'f',
+    score              numeric(2)               not null,
+    blacklisted        bool default 'f' not null,
     created_on         timestamp with time zone not null
 );
 

@@ -46,7 +46,7 @@ def location(message):
     state = {"user": {"language_code": message.from_user.language_code, "id": str(message.from_user.id)},
              "incident": {
                  "location": {
-                     "lat": message.location.latitude, "long": message.location.longitude},
+                     "lat": message.location.latitude, "lon": message.location.longitude},
                  "timestamp": datetime.now().replace(microsecond=0).isoformat()}}
     set_state(message.from_user.id, ConversationState.CATEGORY, state)
 
