@@ -10,8 +10,8 @@
       "Effect": "Allow"
     },
     {
-      "Action": "ssm:GetParameter",
-      "Resource": "${ssm_arn}",
+      "Action": "secretsmanager:GetSecretValue",
+      "Resource": "${secretsmanager_arn}",
       "Effect": "Allow"
     },
     {

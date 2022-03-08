@@ -6,9 +6,9 @@ from telebot import TeleBot
 
 def __get_bot_token():
     session = boto3.session.Session()
-    client = session.client(service_name='ssm')
-    response = client.get_parameter(Name=os.environ['token_parameter'], WithDecryption=True)
-    return response['Parameter']['Value']
+    client = session.client(service_name='secretsmanager')
+    response = client.get_secret_value(SecretId=os.environ['token_parameter'])
+    return response['SecretString']
 
 
 __token = __get_bot_token()

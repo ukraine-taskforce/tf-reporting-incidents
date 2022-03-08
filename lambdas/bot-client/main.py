@@ -30,11 +30,11 @@ class LocationDetails(Enum):
 bot = init_bot()
 
 
-def start(chat_id, from_user_id):
+def start(message):
     markup = ReplyKeyboardMarkup(row_width=1, resize_keyboard=True)
     markup.add(KeyboardButton('Report incident location', request_location=True))
-    bot.send_message(chat_id, "Report an incident by clicking the button bellow", reply_markup=markup)
-    delete_state(from_user_id)
+    bot.send_message(message.chat.id, "Report an incident by clicking the button bellow", reply_markup=markup)
+    delete_state(message.from_user.id)
 
 
 def location(message):
@@ -71,7 +71,7 @@ def process_location_details(message, state):
                      f"Advice for being close to {state['incident']['category'].lower()}, what to do, how to get to "
                      f"safety asap, what we recommend doing, etc.")
     bot.send_message(message.chat.id, f"Debug: {state}")
-    start(message.chat.id, message.from_user.id)
+    start(message)
 
     response = send_report(state)
     logger.info(f"SQS Response: {response}")
@@ -98,7 +98,7 @@ def lambda_handler(event: dict, context):
         return {'statusCode': 200}
 
     if update.message.text == '/start':
-        start(update.message.chat.id, update.message.from_user.id)
+        start(update.message)
         return {'statusCode': 200}
 
     conv_state, state = get_state(update.message.from_user.id)

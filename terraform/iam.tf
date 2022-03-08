@@ -76,8 +76,8 @@ data "template_file" "bot-client-policy" {
   template = file("policies/bot-permission.json")
   vars = {
     dynamodb_arn = aws_dynamodb_table.incident-intermediate-state.arn
-    ssm_arn = aws_ssm_parameter.telegram-bot-token.arn
     sqs_arn = aws_sqs_queue.reporting-incidents_sqs.arn
+    secretsmanager_arn = aws_secretsmanager_secret.telegram-bot-token.arn
   }
 }
 

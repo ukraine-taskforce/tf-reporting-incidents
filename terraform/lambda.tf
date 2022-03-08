@@ -51,6 +51,15 @@ resource "random_id" "random_path" {
   byte_length = 16
 }
 
+resource "aws_secretsmanager_secret" "telegram-bot-token" {
+  name = "lambda/telegram-bot-client/token"
+}
+
+resource "aws_secretsmanager_secret_version" "telegram-bot-token" {
+  secret_id = aws_secretsmanager_secret.telegram-bot-token.id
+  secret_string = var.telegram_token
+}
+
 variable "telegram_token" {
   type      = string
   sensitive = true
@@ -81,7 +90,7 @@ resource "aws_lambda_function" "bot-client-lambda" {
     variables = {
       domain                    = aws_apigatewayv2_api.bot-client-api.api_endpoint
       path_key                  = random_id.random_path.hex
-      token_parameter           = aws_ssm_parameter.telegram-bot-token.name
+      token_parameter           = aws_secretsmanager_secret.telegram-bot-token.arn
       incident_state_table_name = aws_dynamodb_table.incident-intermediate-state.name
       sqs_url                   = aws_sqs_queue.reporting-incidents_sqs.url
     }
