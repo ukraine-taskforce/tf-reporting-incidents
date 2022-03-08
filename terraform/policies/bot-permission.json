@@ -23,6 +23,11 @@
       ],
       "Resource": "${dynamodb_arn}",
       "Effect": "Allow"
+    },
+    {
+      "Action": "sqs:SendMessage",
+      "Resource": "${sqs_arn}",
+      "Effect": "Allow"
     }
   ]
 }

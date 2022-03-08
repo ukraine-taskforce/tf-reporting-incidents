@@ -1,7 +1,6 @@
 import os
 import logging
 import json
-import requests
 
 from datetime import datetime
 from enum import Enum
@@ -10,6 +9,7 @@ from telebot.types import Update, ReplyKeyboardMarkup, KeyboardButton
 
 from state import ConversationState, get_state, update_state, set_state, delete_state
 from bot import init_bot
+from reporting import send_report
 
 logging.getLogger().setLevel(logging.INFO)
 logger = logging.getLogger(__name__)
@@ -73,7 +73,8 @@ def process_location_details(message, state):
     bot.send_message(message.chat.id, f"Debug: {state}")
     start(message.chat.id, message.from_user.id)
 
-    # requests.post('https://kkq58brpwj.execute-api.eu-central-1.amazonaws.com/live/api/v1/report', json=state)
+    response = send_report(state)
+    logger.info(f"SQS Response: {response}")
 
 
 def lambda_handler(event: dict, context):

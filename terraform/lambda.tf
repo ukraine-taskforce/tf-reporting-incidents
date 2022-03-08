@@ -14,14 +14,14 @@ resource "aws_lambda_function" "reportsOnIncidents_lambdaFn" {
 
   environment {
     variables = {
-      SECRET_ARN: aws_secretsmanager_secret.rds_credentials.arn,
-      RDS_DB_ARN: aws_rds_cluster.cluster.arn
+      SECRET_ARN : aws_secretsmanager_secret.rds_credentials.arn,
+      RDS_DB_ARN : aws_rds_cluster.cluster.arn
     }
   }
 }
 
 resource "aws_cloudwatch_log_group" "reportsOnIncidents_logGroup" {
-  name = "/aws/lambda/${aws_lambda_function.reportsOnIncidents_lambdaFn.function_name}"
+  name              = "/aws/lambda/${aws_lambda_function.reportsOnIncidents_lambdaFn.function_name}"
   retention_in_days = 30
 }
 
@@ -36,9 +36,9 @@ resource "aws_lambda_permission" "reportsOnIncidents_allows_sqs_to_trigger_lambd
 # Trigger lambda on message to SQS
 resource "aws_lambda_event_source_mapping" "reportsOnIncidents_event_source_mapping" {
   batch_size       = 1
-  event_source_arn =  aws_sqs_queue.reporting-incidents_sqs.arn
+  event_source_arn = aws_sqs_queue.reporting-incidents_sqs.arn
   enabled          = true
-  function_name    =  aws_lambda_function.reportsOnIncidents_lambdaFn.arn
+  function_name    = aws_lambda_function.reportsOnIncidents_lambdaFn.arn
 }
 
 ###### Bot client lambda
@@ -79,9 +79,11 @@ resource "aws_lambda_function" "bot-client-lambda" {
   source_code_hash = data.archive_file.bot-token-archive.output_base64sha256
   environment {
     variables = {
-      domain          = aws_apigatewayv2_api.bot-client-api.api_endpoint
-      path_key        = random_id.random_path.hex
-      token_parameter = aws_ssm_parameter.telegram-bot-token.name
+      domain                    = aws_apigatewayv2_api.bot-client-api.api_endpoint
+      path_key                  = random_id.random_path.hex
+      token_parameter           = aws_ssm_parameter.telegram-bot-token.name
+      incident_state_table_name = aws_dynamodb_table.incident-intermediate-state.name
+      sqs_url                   = aws_sqs_queue.reporting-incidents_sqs.url
     }
   }
 

@@ -1,3 +1,5 @@
+import os
+
 import boto3
 import json
 
@@ -6,7 +8,7 @@ from enum import Enum
 
 def __initialize_table():
     db = boto3.resource('dynamodb')
-    return db.Table('IncidentIntermediateState')
+    return db.Table(os.environ['incident_state_table_name'])
 
 
 __incident_intermediate_state = __initialize_table()
