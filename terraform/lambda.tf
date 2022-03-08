@@ -1,14 +1,34 @@
 # Lambda: Store reported incidents
+resource "null_resource" "lambda_storeIncidentHandler_installDependencies" {
+  provisioner "local-exec" {
+    working_dir = "${path.module}/../lambdas/storeIncidentHandler"
+    command = "npm install"
+  }
+
+  triggers = {
+    rerun_every_time = uuid()
+  }
+}
+
+data "archive_file" "lambda_storeIncidentHandler_file" {
+  type = "zip"
+
+  source_dir  = "${path.module}/../lambdas/storeIncidentHandler"
+  output_path = "${path.module}/storeIncidentHandler.zip"
+
+  depends_on = [ null_resource.lambda_storeIncidentHandler_installDependencies ]
+}
+
 resource "aws_lambda_function" "reportsOnIncidents_lambdaFn" {
   function_name = "ReportOnIncidents-StoreIncident"
 
-  s3_bucket = aws_s3_bucket.ugt_lambda_states.id
-  s3_key    = aws_s3_object.lambda_storeIncidentHandler.key
+#  s3_bucket = aws_s3_bucket.ugt_lambda_states.id
+#  s3_key    = aws_s3_object.lambda_storeIncidentHandler.key
+  filename         = data.archive_file.lambda_storeIncidentHandler_file.output_path
+  source_code_hash = data.archive_file.lambda_storeIncidentHandler_file.output_base64sha256
 
   runtime = "nodejs14.x"
   handler = "index.handler"
-
-  source_code_hash = data.archive_file.lambda_storeIncidentHandler_file.output_base64sha256
 
   role = aws_iam_role.reportsOnIncidents-lambda-role.arn
 

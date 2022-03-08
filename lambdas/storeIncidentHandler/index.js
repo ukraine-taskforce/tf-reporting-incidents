@@ -15,6 +15,7 @@ const SELECT_USER_BY_EXTERNAL_ID = `SELECT *
                                     WHERE external_id = :externalId`;
 
 exports.handler = async (event) => {
+    // Parse body of message object
     const eventBody = JSON.parse(event?.Records[0].body);
 
     const dataClient = require('data-api-client')({
