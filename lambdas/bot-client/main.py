@@ -53,7 +53,7 @@ def location(message):
 
 def category(message, state):
     selected_category = IncidentCategory(message.text)
-    state["incident"]["category"] = selected_category.value
+    state["incident"]["type"] = selected_category.value
 
     markup = ReplyKeyboardMarkup(row_width=1, resize_keyboard=True)
     for location_details in LocationDetails:
@@ -68,7 +68,7 @@ def process_location_details(message, state):
     state["incident"]["distance"] = LocationDetails(message.text).value
     bot.send_message(message.chat.id, f"Your report has been recorded and processed by the authorities.")
     bot.send_message(message.chat.id,
-                     f"Advice for being close to {state['incident']['category'].lower()}, what to do, how to get to "
+                     f"Advice for being close to {state['incident']['type'].lower()}, what to do, how to get to "
                      f"safety asap, what we recommend doing, etc.")
     bot.send_message(message.chat.id, f"Debug: {state}")
     start(message)
