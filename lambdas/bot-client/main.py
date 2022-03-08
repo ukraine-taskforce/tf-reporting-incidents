@@ -43,7 +43,7 @@ def location(message):
         markup.add(KeyboardButton(incident_category.value))
 
     bot.send_message(message.chat.id, "What do you want to report?", reply_markup=markup)
-    state = {"user": {"language_code": message.from_user.language_code, "id": message.from_user.id},
+    state = {"user": {"language_code": message.from_user.language_code, "id": str(message.from_user.id)},
              "incident": {
                  "location": {
                      "lat": message.location.latitude, "long": message.location.longitude},
