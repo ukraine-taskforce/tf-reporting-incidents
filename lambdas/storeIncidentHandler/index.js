@@ -2,9 +2,9 @@ var AWS = require('aws-sdk');
 var uuid = AWS.util.uuid;
 
 const INSERT_INCIDENT = `INSERT INTO ugt.incident (id, incident_timestamp, incident_type, location_lat, location_long,
-                                                   distance, status, created_on)
+                                                   distance, status, score, created_on)
                          VALUES (:id::uuid, :incident_timestamp::timestamp, :incident_type, :location_lat,
-                                 :location_long, :distance, :status, :created_on::timestamp)`;
+                                 :location_long, :distance, :status, :score, :created_on::timestamp)`;
 const INSERT_INCIDENT_USER = `INSERT INTO ugt.incident_user(user_id, incident_id)
                               VALUES (:user_id::uuid, :incident_id::uuid)`;
 
@@ -70,6 +70,7 @@ const createIncident = async (dataClient, userId, eventBody) => {
         location_long: inputIncident.location.long,
         distance: inputIncident.distance,
         status: 'PENDING',
+        score: 0,
         created_on: new Date().toISOString()
     };
 
