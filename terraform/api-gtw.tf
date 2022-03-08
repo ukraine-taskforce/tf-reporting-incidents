@@ -100,6 +100,7 @@ resource "aws_api_gateway_method" "reporting-incidents_post-report" {
 resource "aws_api_gateway_method_settings" "reporting-incidents_method-settings" {
   depends_on = [
     aws_api_gateway_stage.reporting-incidents-stage,
+    aws_api_gateway_account.apigateway_cloudwatch_account
   ]
 
   rest_api_id = aws_api_gateway_rest_api.reporting-incidents.id
