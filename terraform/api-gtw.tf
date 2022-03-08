@@ -1,3 +1,33 @@
+#Enable account API Gateway logging
+data "aws_iam_policy_document" "apigateway_logs_assume_role_policy" {
+  statement {
+    effect  = "Allow"
+    actions = ["sts:AssumeRole"]
+
+    principals {
+      type        = "Service"
+      identifiers = ["apigateway.amazonaws.com"]
+    }
+  }
+}
+
+resource "aws_iam_role" "apigateway_cloudwatch_role" {
+  path               = "/"
+  name               = "ApiGatewayLogsRole"
+  assume_role_policy = data.aws_iam_policy_document.apigateway_logs_assume_role_policy.json
+}
+
+resource "aws_iam_role_policy_attachment" "apigateway_cloudwatch_policy" {
+  role       = aws_iam_role.apigateway_cloudwatch_role.name
+  policy_arn = "arn:aws:iam::aws:policy/service-role/AmazonAPIGatewayPushToCloudWatchLogs"
+}
+
+resource "aws_api_gateway_account" "apigateway_cloudwatch_account" {
+  depends_on          = [aws_iam_role_policy_attachment.apigateway_cloudwatch_policy]
+  cloudwatch_role_arn = aws_iam_role.apigateway_cloudwatch_role.arn
+}
+
+# Create API Gateway
 resource "aws_api_gateway_rest_api" "reporting-incidents" {
   name = "reporting-incidents"
 }
@@ -28,6 +58,15 @@ resource "aws_api_gateway_stage" "reporting-incidents-stage" {
   rest_api_id   = aws_api_gateway_rest_api.reporting-incidents.id
   stage_name    = "live"
 
+  access_log_settings {
+    destination_arn = aws_cloudwatch_log_group.reporting-incidents-log-group.arn
+    format          = "{\"requestId\":\"$context.requestId\", \"ip\": \"$context.identity.sourceIp\", \"caller\":\"$context.identity.caller\", \"user\":\"$context.identity.user\",\"requestTime\":\"$context.requestTime\", \"httpMethod\":\"$context.httpMethod\",\"resourcePath\":\"$context.resourcePath\", \"status\":\"$context.status\",\"protocol\":\"$context.protocol\", \"responseLength\":\"$context.responseLength\"}"
+  }
+
+  lifecycle {
+    create_before_destroy = true
+  }
+
   depends_on = [
     aws_api_gateway_deployment.reporting-incidents-deployment,
   ]
@@ -56,6 +95,26 @@ resource "aws_api_gateway_method" "reporting-incidents_post-report" {
   http_method   = "POST"
   resource_id   = aws_api_gateway_resource.reporting-incidents_report-resource.id
   rest_api_id   = aws_api_gateway_rest_api.reporting-incidents.id
+}
+
+resource "aws_api_gateway_method_settings" "reporting-incidents_method-settings" {
+  depends_on = [
+    aws_api_gateway_stage.reporting-incidents-stage,
+  ]
+
+  rest_api_id = aws_api_gateway_rest_api.reporting-incidents.id
+  stage_name  = aws_api_gateway_stage.reporting-incidents-stage.stage_name
+  method_path = "*/*"
+
+  settings {
+    caching_enabled        = false
+    cache_data_encrypted   = true
+    metrics_enabled        = true
+    logging_level          = "INFO"
+    data_trace_enabled     = true
+    throttling_rate_limit  = 10000
+    throttling_burst_limit = 5000
+  }
 }
 
 resource "aws_api_gateway_integration" "reporting-incidents_report-post_integration" {

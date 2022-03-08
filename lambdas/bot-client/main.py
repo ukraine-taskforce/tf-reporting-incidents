@@ -65,7 +65,7 @@ def category(message, state):
 
 
 def process_location_details(message, state):
-    state["incident"]["location_details"] = LocationDetails(message.text).value
+    state["incident"]["distance"] = LocationDetails(message.text).value
     bot.send_message(message.chat.id, f"Your report has been recorded and processed by the authorities.")
     bot.send_message(message.chat.id,
                      f"Advice for being close to {state['incident']['category'].lower()}, what to do, how to get to "
