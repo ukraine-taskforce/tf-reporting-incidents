@@ -1,0 +1,10002 @@
+[
+  {
+    "timestamp": "2022-01-01T04:33:12.502Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.102949,
+      "lon": 11.421575
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:01:28.325Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.133422,
+      "lon": 11.756168
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:59:42.068Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.2034,
+      "lon": 11.798015
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T06:39:41.788Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.049351,
+      "lon": 11.580629
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:02:31.641Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.079702,
+      "lon": 11.528781
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T04:00:27.483Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.074509,
+      "lon": 11.641718
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T07:59:10.223Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.220309,
+      "lon": 11.443441
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:43:48.507Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.08195,
+      "lon": 11.693588
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:34:45.516Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.210818,
+      "lon": 11.770421
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:46:54.983Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.142866,
+      "lon": 11.564166
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T12:02:19.247Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.056873,
+      "lon": 11.628017
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T04:24:12.585Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.207363,
+      "lon": 11.780863
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T10:30:56.776Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.151918,
+      "lon": 11.705146
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:23:22.710Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.121265,
+      "lon": 11.455158
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:43:26.086Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.089518,
+      "lon": 11.558003
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T05:13:53.547Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.052664,
+      "lon": 11.723073
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T01:34:43.888Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.067868,
+      "lon": 11.437565
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T10:07:05.383Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.044191,
+      "lon": 11.791694
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T01:31:44.206Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.053552,
+      "lon": 11.63383
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T04:02:08.336Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.121581,
+      "lon": 11.458942
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T10:36:33.212Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.216457,
+      "lon": 11.724861
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T04:18:33.042Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.084006,
+      "lon": 11.651162
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T01:17:03.516Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.13154,
+      "lon": 11.549541
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T10:38:41.652Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.120784,
+      "lon": 11.760213
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:14:18.842Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.032972,
+      "lon": 11.439314
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T07:16:16.668Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.154757,
+      "lon": 11.580462
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T12:46:36.880Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.211092,
+      "lon": 11.532336
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:40:10.539Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.13224,
+      "lon": 11.722206
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:59:55.503Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.123271,
+      "lon": 11.786275
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:15:31.366Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.109821,
+      "lon": 11.801903
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T08:31:00.013Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.048784,
+      "lon": 11.38652
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:32:34.486Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.150672,
+      "lon": 11.50302
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:56:06.330Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.084471,
+      "lon": 11.384816
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:20:15.610Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.193926,
+      "lon": 11.570434
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T12:41:42.829Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.209798,
+      "lon": 11.774895
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T06:34:53.412Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.120525,
+      "lon": 11.580405
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T11:45:57.268Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.110966,
+      "lon": 11.524386
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:18:24.036Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.223328,
+      "lon": 11.459121
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T08:51:23.596Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.189414,
+      "lon": 11.588016
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T07:59:10.024Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.170509,
+      "lon": 11.674798
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T04:43:49.613Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.105658,
+      "lon": 11.801928
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:40:06.495Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.159096,
+      "lon": 11.736339
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T06:32:30.550Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.072083,
+      "lon": 11.494534
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T12:21:53.117Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.200746,
+      "lon": 11.515953
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T05:51:22.687Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.09504,
+      "lon": 11.750093
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T07:41:10.317Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.078153,
+      "lon": 11.709806
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T01:32:17.958Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.209957,
+      "lon": 11.435951
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T04:15:27.044Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.157324,
+      "lon": 11.699367
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T11:55:58.502Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.158562,
+      "lon": 11.770304
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T01:16:24.162Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.072717,
+      "lon": 11.41782
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T06:15:30.942Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.228522,
+      "lon": 11.692858
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:37:13.811Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.190503,
+      "lon": 11.40515
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:59:14.137Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.230494,
+      "lon": 11.772364
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:43:00.097Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.132109,
+      "lon": 11.7903
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T07:35:39.640Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.199106,
+      "lon": 11.652259
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T01:58:43.252Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.159989,
+      "lon": 11.764719
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T12:57:53.777Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.105673,
+      "lon": 11.502086
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T07:37:06.237Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.160888,
+      "lon": 11.631412
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:31:00.771Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.154055,
+      "lon": 11.752244
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T06:28:01.223Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.111576,
+      "lon": 11.61251
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T06:23:04.388Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.215645,
+      "lon": 11.701071
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:36:38.544Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.132213,
+      "lon": 11.514669
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T11:23:35.630Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.039093,
+      "lon": 11.487952
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T11:51:37.546Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.216416,
+      "lon": 11.5314
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T07:50:02.631Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.121837,
+      "lon": 11.729648
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:22:47.071Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.148048,
+      "lon": 11.519677
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T10:46:24.369Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.134468,
+      "lon": 11.697692
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:25:24.625Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.210881,
+      "lon": 11.639202
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T12:02:29.749Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.11189,
+      "lon": 11.734497
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T05:25:27.040Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.187729,
+      "lon": 11.647473
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T08:13:04.712Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.173999,
+      "lon": 11.767146
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:18:28.061Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.16312,
+      "lon": 11.683631
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T01:08:31.645Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.124918,
+      "lon": 11.482228
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:00:38.444Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.177873,
+      "lon": 11.579357
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T10:43:21.801Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.086507,
+      "lon": 11.743077
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:32:20.758Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.231712,
+      "lon": 11.776551
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T08:04:34.903Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.083582,
+      "lon": 11.681806
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:03:41.078Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.116797,
+      "lon": 11.621649
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T07:43:33.939Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.191578,
+      "lon": 11.711445
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T05:15:21.170Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.167269,
+      "lon": 11.562559
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:38:06.283Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.088073,
+      "lon": 11.680337
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T05:49:56.749Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.076415,
+      "lon": 11.56455
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:31:27.623Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.138104,
+      "lon": 11.551591
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T05:13:35.746Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.128903,
+      "lon": 11.477771
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T06:40:41.655Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.1256,
+      "lon": 11.790792
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T07:48:41.022Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.052005,
+      "lon": 11.582938
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T06:32:17.264Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.031621,
+      "lon": 11.418038
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T04:46:23.609Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.144297,
+      "lon": 11.707201
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T01:52:47.456Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.117596,
+      "lon": 11.4468
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T05:14:12.914Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.138802,
+      "lon": 11.414928
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T08:55:52.034Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.191091,
+      "lon": 11.780094
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T10:49:40.907Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.10486,
+      "lon": 11.61759
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T04:08:39.835Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.127354,
+      "lon": 11.571098
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T11:43:34.749Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.033309,
+      "lon": 11.490751
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T12:25:44.277Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.225316,
+      "lon": 11.570119
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T08:13:47.983Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.053726,
+      "lon": 11.436932
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T04:43:46.423Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.179908,
+      "lon": 11.598195
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:55:58.026Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.107736,
+      "lon": 11.453138
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T06:50:12.421Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.125296,
+      "lon": 11.396649
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T12:23:54.510Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.221974,
+      "lon": 11.608518
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T11:05:47.045Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.033483,
+      "lon": 11.687062
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T05:34:02.653Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.169523,
+      "lon": 11.529148
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T10:36:35.903Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.050927,
+      "lon": 11.763417
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:54:44.980Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.125472,
+      "lon": 11.484362
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T01:28:30.272Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.069212,
+      "lon": 11.514348
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T05:28:40.326Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.131407,
+      "lon": 11.750818
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:47:54.388Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.137125,
+      "lon": 11.421248
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:39:12.670Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.147571,
+      "lon": 11.688171
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:33:51.911Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.1754,
+      "lon": 11.474458
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T08:18:24.658Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.099678,
+      "lon": 11.728341
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T08:14:52.084Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.042663,
+      "lon": 11.585403
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T08:56:44.619Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.049185,
+      "lon": 11.569773
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T01:41:04.520Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.059081,
+      "lon": 11.518622
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T08:38:39.769Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.211571,
+      "lon": 11.5816
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T08:05:29.720Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.228528,
+      "lon": 11.801581
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T05:49:41.855Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.072406,
+      "lon": 11.462166
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T01:31:10.966Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.073097,
+      "lon": 11.365839
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T01:48:51.258Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.056456,
+      "lon": 11.485414
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:23:05.409Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.150859,
+      "lon": 11.584586
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:43:14.207Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.042832,
+      "lon": 11.411479
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T10:07:29.590Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.043511,
+      "lon": 11.587219
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T06:10:53.072Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.053441,
+      "lon": 11.579809
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T04:18:03.592Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.094692,
+      "lon": 11.680608
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:59:34.218Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.128347,
+      "lon": 11.601524
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:52:20.873Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.192136,
+      "lon": 11.463772
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T07:44:55.188Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.177142,
+      "lon": 11.659205
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T10:35:49.616Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.108404,
+      "lon": 11.546407
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:40:02.833Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.072982,
+      "lon": 11.747642
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T07:25:55.906Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.136075,
+      "lon": 11.611575
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T07:11:25.775Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.230316,
+      "lon": 11.773313
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T04:43:59.529Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.09346,
+      "lon": 11.752055
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:30:52.421Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.107568,
+      "lon": 11.666531
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T04:08:15.592Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.182851,
+      "lon": 11.369852
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:58:01.815Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.228788,
+      "lon": 11.410541
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T06:43:20.129Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.222741,
+      "lon": 11.646789
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T06:23:13.607Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.088625,
+      "lon": 11.756812
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:47:20.281Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.22969,
+      "lon": 11.681719
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T04:03:17.614Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.188117,
+      "lon": 11.596775
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:14:34.253Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.096813,
+      "lon": 11.662422
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T10:13:24.628Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.180313,
+      "lon": 11.464658
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T06:27:01.666Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.132516,
+      "lon": 11.434773
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T08:06:18.405Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.169969,
+      "lon": 11.580938
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T06:27:51.509Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.136302,
+      "lon": 11.693786
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T08:04:37.579Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.102874,
+      "lon": 11.643848
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:17:00.434Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.077334,
+      "lon": 11.400194
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T06:39:19.896Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.068535,
+      "lon": 11.665961
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T01:10:39.890Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.227556,
+      "lon": 11.799621
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T06:26:41.878Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.18819,
+      "lon": 11.407547
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:40:53.550Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.13398,
+      "lon": 11.724141
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T06:33:17.055Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.078654,
+      "lon": 11.488478
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T05:23:53.110Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.207469,
+      "lon": 11.781357
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T04:00:45.244Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.133527,
+      "lon": 11.763648
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T07:10:52.144Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.187395,
+      "lon": 11.479208
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:11:39.532Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.197227,
+      "lon": 11.75453
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T05:52:22.028Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.168325,
+      "lon": 11.685104
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T08:35:02.906Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.134866,
+      "lon": 11.375258
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:09:06.135Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.200629,
+      "lon": 11.608828
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T06:40:49.439Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.152183,
+      "lon": 11.628896
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T12:59:06.268Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.156418,
+      "lon": 11.677023
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T01:26:17.602Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.167189,
+      "lon": 11.757374
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T06:38:29.120Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.054475,
+      "lon": 11.656957
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T10:58:23.947Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.113537,
+      "lon": 11.538098
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T01:30:04.322Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.099136,
+      "lon": 11.474416
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T01:50:15.154Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.08021,
+      "lon": 11.65614
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T07:49:44.387Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.143944,
+      "lon": 11.497493
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:01:00.476Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.105429,
+      "lon": 11.62195
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:16:23.571Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.042275,
+      "lon": 11.585049
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:58:43.595Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.114015,
+      "lon": 11.591066
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T07:32:54.469Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.188344,
+      "lon": 11.548272
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T07:18:55.319Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.131381,
+      "lon": 11.628617
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T07:19:59.540Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.226759,
+      "lon": 11.573777
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:27:31.557Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.191755,
+      "lon": 11.678307
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:49:07.809Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.226764,
+      "lon": 11.576294
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T07:43:23.215Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.106345,
+      "lon": 11.611728
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:50:27.305Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.06289,
+      "lon": 11.496629
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:18:21.270Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.15233,
+      "lon": 11.649809
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T01:26:45.693Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.072016,
+      "lon": 11.540123
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T04:41:27.799Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.054222,
+      "lon": 11.458373
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T08:04:52.793Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.066178,
+      "lon": 11.629872
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:05:04.719Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.058808,
+      "lon": 11.498285
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T01:08:01.142Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.153615,
+      "lon": 11.40898
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:20:17.754Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.102196,
+      "lon": 11.667634
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T12:44:31.264Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.085767,
+      "lon": 11.681302
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T04:23:24.701Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.169082,
+      "lon": 11.533928
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T11:40:12.673Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.227659,
+      "lon": 11.585879
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T10:06:49.516Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.214734,
+      "lon": 11.778165
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:59:59.260Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.050695,
+      "lon": 11.648323
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T01:01:22.132Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.032113,
+      "lon": 11.487304
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T05:30:38.708Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.033274,
+      "lon": 11.422084
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T04:10:06.366Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.143261,
+      "lon": 11.602191
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T05:19:54.757Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.049766,
+      "lon": 11.387869
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:46:39.296Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.156827,
+      "lon": 11.373959
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T06:48:28.395Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.231425,
+      "lon": 11.516624
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T05:37:25.013Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.147356,
+      "lon": 11.479593
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T10:53:01.169Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.215145,
+      "lon": 11.626954
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T10:30:36.085Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.061006,
+      "lon": 11.625881
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T06:22:38.530Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.202619,
+      "lon": 11.501012
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T01:15:33.336Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.205103,
+      "lon": 11.563572
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:44:58.981Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.039468,
+      "lon": 11.602423
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T04:23:34.505Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.192617,
+      "lon": 11.538114
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T10:01:08.076Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.066343,
+      "lon": 11.748669
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T12:27:43.269Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.080346,
+      "lon": 11.796708
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T01:46:18.918Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.03874,
+      "lon": 11.514325
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:47:51.439Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.058069,
+      "lon": 11.541724
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T07:54:26.364Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.194981,
+      "lon": 11.801705
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:57:19.241Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.113059,
+      "lon": 11.53187
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T06:45:27.126Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.182217,
+      "lon": 11.556501
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T08:18:19.488Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.109285,
+      "lon": 11.577835
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T12:27:11.956Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.162516,
+      "lon": 11.377781
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T11:39:44.184Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.078138,
+      "lon": 11.615614
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:39:59.607Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.056673,
+      "lon": 11.804935
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T08:28:43.574Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.131666,
+      "lon": 11.39974
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T11:25:51.226Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.103323,
+      "lon": 11.398653
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:18:24.575Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.214846,
+      "lon": 11.768515
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:30:28.293Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.096831,
+      "lon": 11.65148
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T04:22:45.318Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.042068,
+      "lon": 11.456586
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T07:02:36.662Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.219146,
+      "lon": 11.689528
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T05:39:07.673Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.19415,
+      "lon": 11.73775
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T11:00:00.518Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.072753,
+      "lon": 11.630039
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T12:06:15.615Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.217847,
+      "lon": 11.687302
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T10:57:03.719Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.163258,
+      "lon": 11.599248
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:17:44.866Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.056595,
+      "lon": 11.473909
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T08:21:35.623Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.153207,
+      "lon": 11.619809
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T11:58:32.475Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.138908,
+      "lon": 11.631979
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T08:43:19.821Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.104282,
+      "lon": 11.465999
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T04:24:44.798Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.179133,
+      "lon": 11.713917
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T04:40:11.132Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.228427,
+      "lon": 11.383573
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T11:39:29.116Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.114934,
+      "lon": 11.729442
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T01:41:19.561Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.20688,
+      "lon": 11.725387
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T10:36:18.760Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.227666,
+      "lon": 11.541739
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T07:23:30.638Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.109,
+      "lon": 11.779897
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T11:56:25.631Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.208097,
+      "lon": 11.380308
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T07:48:50.653Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.230631,
+      "lon": 11.545217
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T04:03:23.871Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.130081,
+      "lon": 11.77866
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T10:19:49.890Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.096198,
+      "lon": 11.563879
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T12:39:22.492Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.112381,
+      "lon": 11.716077
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:35:29.030Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.186695,
+      "lon": 11.566211
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T12:57:38.835Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.101895,
+      "lon": 11.618279
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:40:44.704Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.051264,
+      "lon": 11.564003
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T10:58:41.665Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.05719,
+      "lon": 11.408332
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:11:16.145Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.12344,
+      "lon": 11.398053
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:59:25.572Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.03464,
+      "lon": 11.382434
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T06:26:40.156Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.073185,
+      "lon": 11.511322
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T05:09:47.390Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.092766,
+      "lon": 11.470503
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T11:57:55.353Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.077676,
+      "lon": 11.507785
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T12:16:38.661Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.064517,
+      "lon": 11.488761
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:30:33.400Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.150661,
+      "lon": 11.523145
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T10:02:43.266Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.170446,
+      "lon": 11.405547
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:44:19.430Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.130566,
+      "lon": 11.567942
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T07:34:50.652Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.133218,
+      "lon": 11.542803
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:47:14.154Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.059333,
+      "lon": 11.673805
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T07:48:09.711Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.166765,
+      "lon": 11.507593
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T12:43:27.228Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.105068,
+      "lon": 11.741149
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:22:31.007Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.085969,
+      "lon": 11.648974
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T12:00:31.550Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.138857,
+      "lon": 11.539523
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:40:19.071Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.202083,
+      "lon": 11.596051
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T10:29:15.685Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.105334,
+      "lon": 11.364541
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T12:34:46.271Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.036787,
+      "lon": 11.707017
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T04:26:58.122Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.187968,
+      "lon": 11.438127
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T12:31:44.921Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.041088,
+      "lon": 11.762837
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T05:12:44.348Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.081855,
+      "lon": 11.676138
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T06:21:06.598Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.187762,
+      "lon": 11.385397
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:39:55.873Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.061254,
+      "lon": 11.759794
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T06:06:26.865Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.181908,
+      "lon": 11.514877
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T05:04:34.982Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.060076,
+      "lon": 11.629478
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:56:43.526Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.223292,
+      "lon": 11.490855
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:37:23.576Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.092533,
+      "lon": 11.622065
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T11:13:17.736Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.167027,
+      "lon": 11.586687
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T12:44:55.372Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.22945,
+      "lon": 11.790399
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T12:21:32.973Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.108552,
+      "lon": 11.501186
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:02:11.971Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.206648,
+      "lon": 11.602089
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T12:14:25.516Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.229095,
+      "lon": 11.619872
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:57:06.876Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.199718,
+      "lon": 11.574643
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:18:10.057Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.210977,
+      "lon": 11.622977
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T12:45:21.662Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.154964,
+      "lon": 11.728813
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T08:42:14.889Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.199468,
+      "lon": 11.377179
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:09:11.103Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.060282,
+      "lon": 11.397954
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:54:44.739Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.180614,
+      "lon": 11.581972
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T05:39:44.527Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.229937,
+      "lon": 11.562661
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:25:35.175Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.194202,
+      "lon": 11.46317
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:21:17.621Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.116905,
+      "lon": 11.577979
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:29:30.083Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.146391,
+      "lon": 11.374844
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:52:06.819Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.226017,
+      "lon": 11.80011
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:53:28.693Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.048812,
+      "lon": 11.586904
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:10:49.667Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.199022,
+      "lon": 11.52897
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:47:30.635Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.144663,
+      "lon": 11.359622
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T10:02:47.313Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.211106,
+      "lon": 11.474206
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T12:30:40.053Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.125528,
+      "lon": 11.629812
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:02:25.981Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.221164,
+      "lon": 11.460014
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T11:46:47.829Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.222201,
+      "lon": 11.382706
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T05:23:11.689Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.19639,
+      "lon": 11.443639
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T10:57:53.765Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.141368,
+      "lon": 11.596994
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T07:53:10.044Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.133802,
+      "lon": 11.602265
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T12:20:52.796Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.049522,
+      "lon": 11.496845
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T11:27:00.551Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.098096,
+      "lon": 11.372407
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T01:50:33.425Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.097364,
+      "lon": 11.366634
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T12:41:44.484Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.202289,
+      "lon": 11.42513
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T07:16:24.403Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.16679,
+      "lon": 11.648867
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:43:40.150Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.145757,
+      "lon": 11.430002
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:46:51.543Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.052478,
+      "lon": 11.660802
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:01:24.826Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.105555,
+      "lon": 11.515755
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:49:41.387Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.153135,
+      "lon": 11.54227
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T11:18:41.472Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.108934,
+      "lon": 11.805797
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:36:25.644Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.033223,
+      "lon": 11.730143
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T10:11:02.129Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.156548,
+      "lon": 11.734602
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T10:41:41.176Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.172755,
+      "lon": 11.505655
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T08:51:48.229Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.038476,
+      "lon": 11.406672
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T12:15:28.607Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.093695,
+      "lon": 11.605105
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:01:03.971Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.226158,
+      "lon": 11.418137
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T12:57:24.134Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.06034,
+      "lon": 11.705782
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T01:47:21.565Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.088888,
+      "lon": 11.759303
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T12:56:03.558Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.034104,
+      "lon": 11.598308
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T05:32:04.509Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.094624,
+      "lon": 11.413206
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T07:09:36.277Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.053138,
+      "lon": 11.45684
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T01:48:51.100Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.053921,
+      "lon": 11.432258
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:50:30.971Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.210876,
+      "lon": 11.775944
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T05:09:02.779Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.228392,
+      "lon": 11.417734
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:28:51.676Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.220355,
+      "lon": 11.752002
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T04:14:13.035Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.195404,
+      "lon": 11.71999
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:53:24.933Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.136971,
+      "lon": 11.580751
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T11:36:20.951Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.046835,
+      "lon": 11.581601
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:54:04.376Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.101756,
+      "lon": 11.438031
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:12:29.115Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.067383,
+      "lon": 11.676758
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T05:48:55.366Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.151535,
+      "lon": 11.727417
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T06:37:21.332Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.142934,
+      "lon": 11.697954
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T05:24:53.736Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.143369,
+      "lon": 11.52052
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T05:19:39.551Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.052417,
+      "lon": 11.557693
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T07:32:09.854Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.060358,
+      "lon": 11.578838
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:13:05.034Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.172861,
+      "lon": 11.738832
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T07:31:54.256Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.114009,
+      "lon": 11.484827
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:11:57.711Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.068884,
+      "lon": 11.613596
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T05:29:47.170Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.225154,
+      "lon": 11.787046
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T01:21:16.819Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.172277,
+      "lon": 11.459875
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:16:48.153Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.084021,
+      "lon": 11.543818
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T01:06:51.171Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.038506,
+      "lon": 11.697859
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:46:20.921Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.129305,
+      "lon": 11.696237
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T11:42:52.600Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.16095,
+      "lon": 11.582465
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:21:15.147Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.067692,
+      "lon": 11.777624
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T01:46:28.107Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.03602,
+      "lon": 11.678581
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T08:53:45.814Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.083703,
+      "lon": 11.609636
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:38:20.718Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.052455,
+      "lon": 11.5709
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T10:00:15.993Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.22906,
+      "lon": 11.678352
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T04:21:59.613Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.047125,
+      "lon": 11.471926
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:27:25.236Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.147561,
+      "lon": 11.737046
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T08:58:40.053Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.174294,
+      "lon": 11.566932
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T07:22:11.428Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.090408,
+      "lon": 11.604874
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T10:21:47.980Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.077524,
+      "lon": 11.37932
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T01:10:22.902Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.057745,
+      "lon": 11.561582
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T07:45:32.917Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.215173,
+      "lon": 11.749262
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T04:01:39.393Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.118802,
+      "lon": 11.637537
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:23:17.422Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.130069,
+      "lon": 11.640235
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T07:47:39.510Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.22893,
+      "lon": 11.567798
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T04:48:54.622Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.19469,
+      "lon": 11.729728
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:36:38.462Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.192586,
+      "lon": 11.716077
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T05:11:44.103Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.141158,
+      "lon": 11.498521
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T05:30:12.609Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.036645,
+      "lon": 11.569295
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T04:45:16.540Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.075875,
+      "lon": 11.593029
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T01:34:51.807Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.228673,
+      "lon": 11.565046
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T12:16:14.559Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.231267,
+      "lon": 11.785357
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T11:29:42.340Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.21586,
+      "lon": 11.683193
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T07:18:55.532Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.10617,
+      "lon": 11.448532
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T08:13:05.963Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.201535,
+      "lon": 11.783209
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:51:47.621Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.07877,
+      "lon": 11.356851
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T04:13:14.351Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.217773,
+      "lon": 11.547264
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T10:58:23.271Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.167917,
+      "lon": 11.391229
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T12:58:21.237Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.171269,
+      "lon": 11.551877
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T04:18:39.522Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.110847,
+      "lon": 11.402582
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:20:15.810Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.092473,
+      "lon": 11.748468
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T11:37:19.595Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.198378,
+      "lon": 11.501957
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T05:58:08.467Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.173517,
+      "lon": 11.577979
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T06:44:29.877Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.098476,
+      "lon": 11.466296
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T04:00:00.366Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.069286,
+      "lon": 11.801736
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:15:51.264Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.137377,
+      "lon": 11.408215
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T07:35:31.497Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.09013,
+      "lon": 11.745055
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T05:55:40.702Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.110677,
+      "lon": 11.451803
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T01:55:46.838Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.070741,
+      "lon": 11.739666
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T11:02:25.698Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.083512,
+      "lon": 11.700844
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:17:47.771Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.076997,
+      "lon": 11.522946
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T07:53:17.535Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.132494,
+      "lon": 11.538453
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T12:27:05.969Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.116053,
+      "lon": 11.420385
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T05:37:08.412Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.058854,
+      "lon": 11.521321
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T07:33:08.109Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.153856,
+      "lon": 11.706027
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T10:47:44.033Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.212136,
+      "lon": 11.702811
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T11:36:33.550Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.047802,
+      "lon": 11.474758
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T01:32:09.544Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.222439,
+      "lon": 11.514341
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T05:36:20.106Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.05941,
+      "lon": 11.508319
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T10:53:54.926Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.04189,
+      "lon": 11.442631
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:55:48.341Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.18466,
+      "lon": 11.405312
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T08:06:12.089Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.098665,
+      "lon": 11.462101
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T12:51:16.824Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.131065,
+      "lon": 11.543301
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:21:49.464Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.179814,
+      "lon": 11.396208
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T07:57:42.183Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.128637,
+      "lon": 11.362256
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:44:03.961Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.155923,
+      "lon": 11.58634
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T05:29:18.369Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.122255,
+      "lon": 11.641
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:23:57.160Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.102072,
+      "lon": 11.703009
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T05:11:47.033Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.047458,
+      "lon": 11.743541
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T06:00:03.570Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.165614,
+      "lon": 11.485622
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T01:22:07.371Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.148929,
+      "lon": 11.775327
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T04:00:40.915Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.057021,
+      "lon": 11.696299
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T06:59:47.895Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.137904,
+      "lon": 11.434932
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T12:52:31.990Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.168841,
+      "lon": 11.695303
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T05:10:44.820Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.037992,
+      "lon": 11.779961
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T01:43:44.403Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.134803,
+      "lon": 11.404452
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T11:30:58.078Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.138949,
+      "lon": 11.368571
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:01:13.406Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.198625,
+      "lon": 11.496419
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T12:35:01.545Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.185485,
+      "lon": 11.395242
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:17:01.318Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.126776,
+      "lon": 11.674899
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:59:21.821Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.0853,
+      "lon": 11.748626
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T06:03:10.691Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.04331,
+      "lon": 11.440122
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T12:05:49.316Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.107787,
+      "lon": 11.710834
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T05:04:36.955Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.109261,
+      "lon": 11.51648
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:08:03.400Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.043901,
+      "lon": 11.391532
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T10:22:28.178Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.2269,
+      "lon": 11.720476
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T06:30:07.958Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.040258,
+      "lon": 11.794479
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T04:31:24.671Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.058447,
+      "lon": 11.473648
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T05:37:41.849Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.043629,
+      "lon": 11.413854
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T07:27:21.174Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.105191,
+      "lon": 11.470465
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T07:07:20.086Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.165878,
+      "lon": 11.594212
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T10:04:29.498Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.114995,
+      "lon": 11.4823
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:15:19.038Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.203695,
+      "lon": 11.440585
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T07:15:14.567Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.155844,
+      "lon": 11.486147
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T08:21:54.032Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.153662,
+      "lon": 11.658771
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:44:40.756Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.143035,
+      "lon": 11.472161
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T10:43:41.976Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.168442,
+      "lon": 11.391584
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:12:16.716Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.031882,
+      "lon": 11.780023
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T11:02:50.702Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.123953,
+      "lon": 11.552765
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T12:24:50.102Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.216102,
+      "lon": 11.634087
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:31:29.718Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.106729,
+      "lon": 11.595528
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T10:54:29.605Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.068122,
+      "lon": 11.363715
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T04:24:07.222Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.156113,
+      "lon": 11.707426
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T08:53:44.456Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.09441,
+      "lon": 11.629288
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T04:23:00.054Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.15086,
+      "lon": 11.667397
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T07:47:35.638Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.096568,
+      "lon": 11.480271
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T12:23:55.389Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.17628,
+      "lon": 11.778005
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T04:33:14.729Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.049037,
+      "lon": 11.626874
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:15:29.836Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.125241,
+      "lon": 11.45515
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:47:26.487Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.196249,
+      "lon": 11.423706
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T06:05:36.684Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.217262,
+      "lon": 11.391554
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:17:39.080Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.157742,
+      "lon": 11.616547
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T12:08:28.657Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.18213,
+      "lon": 11.797878
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T01:12:57.196Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.216762,
+      "lon": 11.561026
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T06:11:38.953Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.087176,
+      "lon": 11.568137
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T11:03:11.679Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.193849,
+      "lon": 11.594303
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T01:12:04.044Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.04675,
+      "lon": 11.498191
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T06:37:51.855Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.203172,
+      "lon": 11.532566
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:58:18.363Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.053018,
+      "lon": 11.400215
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:27:34.493Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.171138,
+      "lon": 11.475278
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T12:58:14.849Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.103259,
+      "lon": 11.660147
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T05:41:43.884Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.11894,
+      "lon": 11.564281
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:31:46.377Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.066409,
+      "lon": 11.651391
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T04:32:49.511Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.153995,
+      "lon": 11.436154
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T01:54:00.249Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.081315,
+      "lon": 11.503387
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:23:40.646Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.050592,
+      "lon": 11.356106
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:18:54.715Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.035506,
+      "lon": 11.675966
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:48:57.713Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.095981,
+      "lon": 11.433454
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T01:53:00.571Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.155167,
+      "lon": 11.561218
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T11:17:51.889Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.074615,
+      "lon": 11.53292
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:41:22.942Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.151469,
+      "lon": 11.432882
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T10:18:54.227Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.224298,
+      "lon": 11.651285
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T08:41:08.052Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.20485,
+      "lon": 11.492512
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T04:36:46.014Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.230657,
+      "lon": 11.686232
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T01:02:32.081Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.13106,
+      "lon": 11.741492
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T12:23:49.498Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.054176,
+      "lon": 11.684551
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:27:26.618Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.090383,
+      "lon": 11.678967
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T10:00:52.585Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.071907,
+      "lon": 11.67658
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:20:45.224Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.216914,
+      "lon": 11.526323
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T01:23:07.990Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.182385,
+      "lon": 11.559664
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T04:54:33.769Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.142346,
+      "lon": 11.551849
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:08:48.180Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.114543,
+      "lon": 11.436122
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T12:45:16.340Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.071146,
+      "lon": 11.359512
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:28:50.634Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.045492,
+      "lon": 11.710937
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:15:00.829Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.14679,
+      "lon": 11.781085
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T12:57:05.923Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.21793,
+      "lon": 11.594584
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T04:49:08.940Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.112102,
+      "lon": 11.408594
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T10:49:47.565Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.149569,
+      "lon": 11.455325
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T01:37:24.047Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.225191,
+      "lon": 11.432316
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T11:55:50.644Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.166279,
+      "lon": 11.401595
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T01:31:55.767Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.141141,
+      "lon": 11.647985
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T05:30:56.092Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.141157,
+      "lon": 11.475688
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:44:43.891Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.064342,
+      "lon": 11.356816
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T04:14:08.224Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.045369,
+      "lon": 11.786318
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T01:38:23.596Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.101926,
+      "lon": 11.728547
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T06:21:55.769Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.121154,
+      "lon": 11.784934
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T11:09:56.112Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.230549,
+      "lon": 11.705079
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T08:02:40.338Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.04896,
+      "lon": 11.524912
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T05:03:54.177Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.219475,
+      "lon": 11.534624
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T04:24:25.251Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.213725,
+      "lon": 11.543805
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T10:28:51.690Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.103288,
+      "lon": 11.432722
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T04:07:35.289Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.147748,
+      "lon": 11.768066
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T06:18:40.621Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.155636,
+      "lon": 11.366119
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T11:46:44.280Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.068863,
+      "lon": 11.737721
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T11:09:03.811Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.059062,
+      "lon": 11.469677
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T05:25:41.760Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.138991,
+      "lon": 11.508082
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:26:43.856Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.157983,
+      "lon": 11.373763
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:15:36.988Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.162941,
+      "lon": 11.727073
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T07:51:37.851Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.171814,
+      "lon": 11.644682
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:25:02.411Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.138348,
+      "lon": 11.680237
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:39:32.309Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.171685,
+      "lon": 11.565993
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T06:52:56.461Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.221139,
+      "lon": 11.446961
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T10:01:56.930Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.190777,
+      "lon": 11.356852
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T06:34:04.217Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.069943,
+      "lon": 11.560859
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T10:28:54.061Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.131973,
+      "lon": 11.576901
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T08:47:08.582Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.215359,
+      "lon": 11.438977
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T12:59:48.024Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.209399,
+      "lon": 11.390381
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T12:11:34.789Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.192606,
+      "lon": 11.637757
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:18:24.087Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.082509,
+      "lon": 11.515441
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T04:47:21.558Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.062261,
+      "lon": 11.750006
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T06:43:07.297Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.223518,
+      "lon": 11.421747
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T12:49:54.005Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.227418,
+      "lon": 11.770237
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T12:51:13.848Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.063671,
+      "lon": 11.512712
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:16:59.152Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.147835,
+      "lon": 11.533921
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T10:54:41.566Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.230266,
+      "lon": 11.733443
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T04:49:29.062Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.037251,
+      "lon": 11.397319
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T08:58:52.476Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.089847,
+      "lon": 11.637108
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:11:19.851Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.04079,
+      "lon": 11.5652
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T06:27:11.438Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.125477,
+      "lon": 11.521263
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T06:52:51.004Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.142329,
+      "lon": 11.583152
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T12:40:16.279Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.180014,
+      "lon": 11.432736
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:10:09.124Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.228081,
+      "lon": 11.397696
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T10:57:23.135Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.032724,
+      "lon": 11.578316
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T11:04:01.822Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.156142,
+      "lon": 11.401914
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:43:18.247Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.073524,
+      "lon": 11.749351
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:25:42.764Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.123933,
+      "lon": 11.556345
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:30:59.363Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.168491,
+      "lon": 11.597553
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T04:22:43.998Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.185973,
+      "lon": 11.42125
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T11:11:59.405Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.198038,
+      "lon": 11.398244
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:18:31.894Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.231719,
+      "lon": 11.458993
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T06:05:52.553Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.119669,
+      "lon": 11.413971
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T12:28:16.681Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.175591,
+      "lon": 11.428268
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T06:57:32.517Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.197395,
+      "lon": 11.726363
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T04:58:12.164Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.095981,
+      "lon": 11.456047
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T10:11:15.292Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.086759,
+      "lon": 11.659231
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:31:44.144Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.083695,
+      "lon": 11.438234
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T07:12:23.010Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.173774,
+      "lon": 11.591571
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T04:25:44.231Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.172038,
+      "lon": 11.750066
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:02:21.687Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.056578,
+      "lon": 11.678839
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:00:14.924Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.175712,
+      "lon": 11.707036
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:35:02.179Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.177979,
+      "lon": 11.790277
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T10:16:21.940Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.164489,
+      "lon": 11.698093
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:19:43.553Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.197623,
+      "lon": 11.774416
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:58:13.327Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.073471,
+      "lon": 11.365393
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T12:34:03.222Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.05126,
+      "lon": 11.792655
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T06:35:10.816Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.0498,
+      "lon": 11.589191
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T06:11:28.041Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.157015,
+      "lon": 11.588409
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T06:23:55.642Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.087039,
+      "lon": 11.749731
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T11:43:48.499Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.221441,
+      "lon": 11.598059
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:50:58.364Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.099745,
+      "lon": 11.784632
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T12:18:25.489Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.063204,
+      "lon": 11.699466
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T06:51:57.650Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.165534,
+      "lon": 11.73138
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:20:55.582Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.217534,
+      "lon": 11.678184
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T04:33:36.374Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.062375,
+      "lon": 11.396442
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T11:33:03.040Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.085303,
+      "lon": 11.785087
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T06:24:25.761Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.150036,
+      "lon": 11.46652
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T05:14:27.086Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.163677,
+      "lon": 11.358147
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T06:38:34.875Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.215276,
+      "lon": 11.503614
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:34:47.041Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.078944,
+      "lon": 11.563505
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T04:54:13.996Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.08844,
+      "lon": 11.58337
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T08:54:50.141Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.157853,
+      "lon": 11.785849
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T10:27:18.419Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.140425,
+      "lon": 11.67803
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T06:13:38.381Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.18951,
+      "lon": 11.630301
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T05:06:19.640Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.128156,
+      "lon": 11.630348
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T06:57:51.277Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.071092,
+      "lon": 11.772941
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T06:24:00.530Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.211625,
+      "lon": 11.427868
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T04:35:41.323Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.09766,
+      "lon": 11.382604
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T06:32:28.553Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.063834,
+      "lon": 11.422661
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T05:04:19.187Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.039049,
+      "lon": 11.502134
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T07:04:59.588Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.042186,
+      "lon": 11.502739
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T12:21:08.254Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.113227,
+      "lon": 11.760122
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:11:23.329Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.173701,
+      "lon": 11.518526
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T06:29:47.586Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.195556,
+      "lon": 11.392477
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T08:44:16.218Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.095224,
+      "lon": 11.722025
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T11:31:05.200Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.034058,
+      "lon": 11.477068
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:31:50.110Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.046216,
+      "lon": 11.378351
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T07:05:13.341Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.181613,
+      "lon": 11.359277
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T12:14:01.149Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.108554,
+      "lon": 11.474624
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T08:09:08.126Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.180253,
+      "lon": 11.802504
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:06:35.090Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.174727,
+      "lon": 11.503704
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:04:31.602Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.070027,
+      "lon": 11.712174
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:41:29.394Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.132834,
+      "lon": 11.77892
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T06:28:14.187Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.042057,
+      "lon": 11.503996
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T04:30:05.550Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.059862,
+      "lon": 11.520585
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T10:39:35.510Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.150447,
+      "lon": 11.405625
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:36:31.505Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.097857,
+      "lon": 11.434648
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T08:22:34.882Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.058638,
+      "lon": 11.683161
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T10:02:50.219Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.125672,
+      "lon": 11.765363
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:48:58.549Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.094725,
+      "lon": 11.390319
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T10:15:23.987Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.193399,
+      "lon": 11.476593
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:07:42.761Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.038301,
+      "lon": 11.742604
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T07:50:08.746Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.146758,
+      "lon": 11.550389
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T07:13:25.117Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.181677,
+      "lon": 11.542016
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T06:52:44.186Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.057539,
+      "lon": 11.445743
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T07:28:37.763Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.034839,
+      "lon": 11.378868
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:47:14.444Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.10916,
+      "lon": 11.517352
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T06:47:56.072Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.094368,
+      "lon": 11.717889
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T08:43:37.515Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.159956,
+      "lon": 11.553145
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T04:26:51.906Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.048563,
+      "lon": 11.669503
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T05:58:33.348Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.052081,
+      "lon": 11.62649
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T11:35:10.928Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.19592,
+      "lon": 11.567552
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T11:01:11.719Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.182378,
+      "lon": 11.400252
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T01:11:25.525Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.088973,
+      "lon": 11.404738
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T06:22:51.578Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.060563,
+      "lon": 11.692114
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T06:54:17.668Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.109992,
+      "lon": 11.684619
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T11:51:10.407Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.227703,
+      "lon": 11.473435
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:06:15.758Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.186765,
+      "lon": 11.468009
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:27:35.256Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.036913,
+      "lon": 11.591756
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T05:11:54.592Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.14909,
+      "lon": 11.796282
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T11:15:25.128Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.184491,
+      "lon": 11.777265
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T11:35:48.089Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.111677,
+      "lon": 11.748418
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T08:18:53.987Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.061823,
+      "lon": 11.445328
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T12:43:41.058Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.11744,
+      "lon": 11.438391
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T07:06:25.617Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.120098,
+      "lon": 11.606423
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T08:45:47.667Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.066252,
+      "lon": 11.70112
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T11:37:39.888Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.139596,
+      "lon": 11.385961
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T07:55:08.923Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.175048,
+      "lon": 11.465324
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:35:40.760Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.2225,
+      "lon": 11.516299
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:53:16.206Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.169453,
+      "lon": 11.508969
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T11:24:45.590Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.042815,
+      "lon": 11.489202
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T06:28:28.677Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.080777,
+      "lon": 11.743886
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T11:52:50.517Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.081399,
+      "lon": 11.666684
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:50:35.860Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.172873,
+      "lon": 11.392288
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T12:17:20.672Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.219111,
+      "lon": 11.36456
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T10:06:46.503Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.185106,
+      "lon": 11.468361
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T05:36:38.155Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.062784,
+      "lon": 11.466629
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T08:32:36.621Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.18243,
+      "lon": 11.376504
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T05:12:31.095Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.202842,
+      "lon": 11.789029
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T04:09:01.183Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.149494,
+      "lon": 11.421962
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T11:29:04.237Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.126378,
+      "lon": 11.533219
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:35:50.781Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.178785,
+      "lon": 11.741345
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:05:25.823Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.168313,
+      "lon": 11.599092
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T04:47:15.996Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.057466,
+      "lon": 11.800058
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T10:38:55.093Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.207318,
+      "lon": 11.480975
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T12:03:37.809Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.11951,
+      "lon": 11.652871
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T12:22:22.233Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.052458,
+      "lon": 11.779317
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:25:06.462Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.177859,
+      "lon": 11.704136
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T08:36:03.200Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.12521,
+      "lon": 11.761942
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:11:09.215Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.205541,
+      "lon": 11.789071
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T08:30:20.030Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.210433,
+      "lon": 11.653993
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T11:40:06.707Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.085132,
+      "lon": 11.707942
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T05:15:45.670Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.111121,
+      "lon": 11.501516
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T10:54:13.088Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.105926,
+      "lon": 11.669199
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T08:37:17.928Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.15134,
+      "lon": 11.805876
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T08:43:53.762Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.08897,
+      "lon": 11.651239
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:29:50.892Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.22365,
+      "lon": 11.394224
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T12:24:40.826Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.14628,
+      "lon": 11.438598
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T12:11:17.638Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.075254,
+      "lon": 11.363044
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T11:42:25.535Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.228676,
+      "lon": 11.624328
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T05:56:04.665Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.105651,
+      "lon": 11.764308
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T04:45:54.139Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.176093,
+      "lon": 11.534996
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T11:14:27.607Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.126183,
+      "lon": 11.588655
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:19:45.586Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.173372,
+      "lon": 11.487119
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T04:28:25.170Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.204116,
+      "lon": 11.716663
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T01:56:37.527Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.228314,
+      "lon": 11.424944
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T10:59:19.444Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.06561,
+      "lon": 11.615886
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T07:13:19.743Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.119552,
+      "lon": 11.592957
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T08:39:39.916Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.14162,
+      "lon": 11.728157
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:31:17.071Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.14991,
+      "lon": 11.548963
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:31:02.621Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.043626,
+      "lon": 11.712249
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T04:18:44.029Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.210642,
+      "lon": 11.775806
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:51:12.967Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.226054,
+      "lon": 11.662911
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T12:50:07.234Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.067242,
+      "lon": 11.727819
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T11:34:25.701Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.087527,
+      "lon": 11.749713
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T06:12:50.645Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.124038,
+      "lon": 11.73298
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:35:32.056Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.087635,
+      "lon": 11.480992
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:42:15.220Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.103636,
+      "lon": 11.732113
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T04:40:30.476Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.190386,
+      "lon": 11.757115
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T07:40:50.317Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.079752,
+      "lon": 11.526819
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:38:25.675Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.061573,
+      "lon": 11.564225
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:44:16.193Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.158589,
+      "lon": 11.390303
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:15:52.100Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.038724,
+      "lon": 11.585309
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T08:44:33.160Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.083775,
+      "lon": 11.375867
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T05:28:07.974Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.113817,
+      "lon": 11.802571
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T06:26:51.405Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.051237,
+      "lon": 11.396358
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T01:38:06.034Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.189403,
+      "lon": 11.461957
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T04:53:01.690Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.144986,
+      "lon": 11.556205
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T10:26:43.307Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.075054,
+      "lon": 11.394914
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T07:16:26.682Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.134724,
+      "lon": 11.533547
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T08:09:05.103Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.193716,
+      "lon": 11.677727
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:01:36.955Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.203323,
+      "lon": 11.472149
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:31:48.772Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.055416,
+      "lon": 11.698236
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T05:24:03.808Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.220482,
+      "lon": 11.62846
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T01:15:02.583Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.16522,
+      "lon": 11.546481
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T08:07:03.900Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.109114,
+      "lon": 11.512376
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T08:34:00.905Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.088438,
+      "lon": 11.464665
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T07:50:45.150Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.107468,
+      "lon": 11.5265
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:48:56.138Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.181683,
+      "lon": 11.524184
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T05:34:55.488Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.110793,
+      "lon": 11.530657
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:14:14.062Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.184194,
+      "lon": 11.763718
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T06:58:09.923Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.049908,
+      "lon": 11.697958
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T08:16:24.004Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.124705,
+      "lon": 11.370982
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T10:22:10.644Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.229916,
+      "lon": 11.417384
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T08:05:34.170Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.204137,
+      "lon": 11.487539
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:45:22.367Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.098273,
+      "lon": 11.737784
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T12:04:56.057Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.131923,
+      "lon": 11.451392
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:59:58.928Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.167158,
+      "lon": 11.464327
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T07:06:34.635Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.16975,
+      "lon": 11.390192
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T04:38:21.736Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.136012,
+      "lon": 11.472888
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T05:58:30.750Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.231341,
+      "lon": 11.45839
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T10:45:19.678Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.102346,
+      "lon": 11.477221
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T07:47:34.294Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.062153,
+      "lon": 11.785748
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T07:15:20.310Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.093266,
+      "lon": 11.704977
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:00:23.255Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.172092,
+      "lon": 11.604225
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T01:11:25.448Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.221224,
+      "lon": 11.372659
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T05:58:01.930Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.054902,
+      "lon": 11.697568
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T04:29:57.919Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.105065,
+      "lon": 11.704617
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T10:10:34.705Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.222713,
+      "lon": 11.639359
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T01:47:51.063Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.053366,
+      "lon": 11.532656
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T05:42:21.222Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.132771,
+      "lon": 11.393881
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:25:45.903Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.070971,
+      "lon": 11.598669
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T10:47:55.939Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.167483,
+      "lon": 11.797816
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:32:56.041Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.139975,
+      "lon": 11.805474
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T06:42:24.103Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.157031,
+      "lon": 11.591602
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T06:33:43.025Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.229548,
+      "lon": 11.384287
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:20:50.846Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.203655,
+      "lon": 11.724584
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:27:43.897Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.080064,
+      "lon": 11.687943
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:34:32.766Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.084411,
+      "lon": 11.718559
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T12:41:56.161Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.151877,
+      "lon": 11.372716
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T10:46:10.785Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.075486,
+      "lon": 11.644241
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:34:03.883Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.164311,
+      "lon": 11.430571
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:45:17.411Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.11747,
+      "lon": 11.580159
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T01:41:19.569Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.131997,
+      "lon": 11.608279
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T07:38:44.351Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.039694,
+      "lon": 11.573812
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T06:22:02.572Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.041662,
+      "lon": 11.715752
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T10:43:53.480Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.189942,
+      "lon": 11.659739
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T01:49:44.612Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.133747,
+      "lon": 11.642698
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T05:12:38.505Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.125341,
+      "lon": 11.529609
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T12:38:40.029Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.068177,
+      "lon": 11.707303
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T04:51:10.219Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.059795,
+      "lon": 11.649955
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:46:28.517Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.07354,
+      "lon": 11.36715
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:09:36.086Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.207247,
+      "lon": 11.788973
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T08:31:05.508Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.108419,
+      "lon": 11.455129
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T08:37:28.603Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.227902,
+      "lon": 11.460161
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:26:26.603Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.100259,
+      "lon": 11.764536
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T05:09:39.349Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.073128,
+      "lon": 11.674405
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T10:49:27.140Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.099143,
+      "lon": 11.488568
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T10:23:06.407Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.095396,
+      "lon": 11.478357
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:47:53.157Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.093971,
+      "lon": 11.675843
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T12:30:41.094Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.230823,
+      "lon": 11.402502
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T10:34:26.283Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.1468,
+      "lon": 11.601262
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:12:56.738Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.125859,
+      "lon": 11.706103
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T05:07:17.933Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.154258,
+      "lon": 11.753751
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T04:10:47.279Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.106903,
+      "lon": 11.640298
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:56:27.177Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.038856,
+      "lon": 11.356058
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:35:40.497Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.169944,
+      "lon": 11.636888
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T08:24:39.159Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.031745,
+      "lon": 11.474072
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T06:23:23.599Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.196934,
+      "lon": 11.673618
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T04:20:52.527Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.217934,
+      "lon": 11.41156
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:42:17.218Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.143106,
+      "lon": 11.716697
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T10:21:53.324Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.12829,
+      "lon": 11.396554
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T06:46:39.626Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.226105,
+      "lon": 11.677866
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T10:46:33.240Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.109432,
+      "lon": 11.513648
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:40:45.720Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.038375,
+      "lon": 11.776423
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T07:50:19.331Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.184414,
+      "lon": 11.64438
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:17:36.706Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.048842,
+      "lon": 11.690127
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T06:54:52.679Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.124859,
+      "lon": 11.742142
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T05:33:06.996Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.063425,
+      "lon": 11.683659
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T05:00:22.905Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.08302,
+      "lon": 11.688202
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T12:56:09.762Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.107701,
+      "lon": 11.497701
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T10:28:28.900Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.154724,
+      "lon": 11.639476
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T10:07:56.862Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.118691,
+      "lon": 11.73903
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T08:48:26.095Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.175087,
+      "lon": 11.44433
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T08:03:34.160Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.196417,
+      "lon": 11.600801
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T11:39:34.634Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.2065,
+      "lon": 11.724288
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T01:46:26.119Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.191462,
+      "lon": 11.631376
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T10:17:51.445Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.04708,
+      "lon": 11.398404
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T10:19:55.445Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.207508,
+      "lon": 11.621331
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T06:46:08.732Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.092281,
+      "lon": 11.637297
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:30:00.378Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.080946,
+      "lon": 11.761503
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T05:33:01.189Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.149494,
+      "lon": 11.509391
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T11:38:38.146Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.070037,
+      "lon": 11.39913
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T07:19:32.557Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.082711,
+      "lon": 11.432272
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:58:17.034Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.162318,
+      "lon": 11.583479
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T07:32:33.516Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.100412,
+      "lon": 11.801404
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:51:29.961Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.206835,
+      "lon": 11.647418
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:24:05.650Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.137439,
+      "lon": 11.586735
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:53:59.668Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.136311,
+      "lon": 11.536312
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T07:51:00.568Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.181026,
+      "lon": 11.547443
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T04:55:14.594Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.222645,
+      "lon": 11.652123
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T06:32:02.058Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.168509,
+      "lon": 11.490848
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T07:56:19.747Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.068983,
+      "lon": 11.726328
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T12:50:41.970Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.08811,
+      "lon": 11.451267
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T12:20:49.243Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.051523,
+      "lon": 11.70644
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T04:10:38.997Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.052266,
+      "lon": 11.388149
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T05:10:57.567Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.220186,
+      "lon": 11.755317
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T04:07:42.203Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.087883,
+      "lon": 11.514297
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T12:17:22.936Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.201626,
+      "lon": 11.711946
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:58:18.415Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.065844,
+      "lon": 11.537305
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T07:04:49.068Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.177823,
+      "lon": 11.385541
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T12:42:43.351Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.032038,
+      "lon": 11.484875
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T08:35:16.488Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.125954,
+      "lon": 11.753756
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:12:18.405Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.078003,
+      "lon": 11.382703
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T12:19:57.682Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.165967,
+      "lon": 11.657033
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T08:29:09.023Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.164494,
+      "lon": 11.564192
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:51:10.382Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.103583,
+      "lon": 11.438914
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T05:51:23.067Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.147493,
+      "lon": 11.772773
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:34:42.145Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.205782,
+      "lon": 11.502665
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T04:31:52.294Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.128806,
+      "lon": 11.525246
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T04:19:58.059Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.119259,
+      "lon": 11.51368
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T11:19:04.432Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.043363,
+      "lon": 11.704326
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T08:48:24.609Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.168523,
+      "lon": 11.367473
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T12:57:09.849Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.192161,
+      "lon": 11.430478
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T08:32:21.608Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.123086,
+      "lon": 11.541316
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:35:48.090Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.136116,
+      "lon": 11.418813
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T08:17:05.712Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.193253,
+      "lon": 11.433704
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T11:43:36.070Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.122888,
+      "lon": 11.806435
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T10:47:13.229Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.153971,
+      "lon": 11.383752
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:15:59.315Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.198917,
+      "lon": 11.509425
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T04:28:49.599Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.189412,
+      "lon": 11.679026
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:48:53.706Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.135668,
+      "lon": 11.692016
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T11:51:30.476Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.048085,
+      "lon": 11.440412
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:38:38.453Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.079261,
+      "lon": 11.782509
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T06:00:16.103Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.169143,
+      "lon": 11.579349
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T12:29:08.003Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.066633,
+      "lon": 11.788317
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T07:42:12.528Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.058168,
+      "lon": 11.547543
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:08:01.579Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.08773,
+      "lon": 11.557979
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T11:03:06.841Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.111544,
+      "lon": 11.722115
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T04:39:47.519Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.055056,
+      "lon": 11.720616
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:24:11.680Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.128393,
+      "lon": 11.460857
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T01:44:11.173Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.075679,
+      "lon": 11.356399
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T08:42:23.992Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.068293,
+      "lon": 11.394591
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T04:08:42.093Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.130044,
+      "lon": 11.392083
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T01:19:55.802Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.179337,
+      "lon": 11.539702
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T08:56:42.623Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.189436,
+      "lon": 11.566284
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T04:20:35.651Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.138155,
+      "lon": 11.396234
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T05:35:45.979Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.199698,
+      "lon": 11.647805
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:51:36.805Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.077091,
+      "lon": 11.704196
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T12:38:09.752Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.15181,
+      "lon": 11.60335
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T06:34:22.515Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.210938,
+      "lon": 11.590119
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T11:22:04.207Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.046376,
+      "lon": 11.804707
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T01:51:20.891Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.040261,
+      "lon": 11.591959
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T01:45:01.468Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.129063,
+      "lon": 11.423394
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T01:18:53.804Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.156601,
+      "lon": 11.78449
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T06:49:23.336Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.042582,
+      "lon": 11.701758
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T06:56:53.399Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.035587,
+      "lon": 11.764025
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T12:07:16.202Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.108121,
+      "lon": 11.541223
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T01:31:33.972Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.174286,
+      "lon": 11.610678
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:36:21.793Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.162534,
+      "lon": 11.627145
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T10:15:12.590Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.04966,
+      "lon": 11.609499
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T10:59:26.381Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.094814,
+      "lon": 11.400919
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T11:56:09.168Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.102953,
+      "lon": 11.573259
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T01:34:19.731Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.113364,
+      "lon": 11.355994
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:21:40.327Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.117975,
+      "lon": 11.689098
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T04:51:38.382Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.04552,
+      "lon": 11.553876
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:25:31.497Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.109404,
+      "lon": 11.549893
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:41:02.240Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.21788,
+      "lon": 11.659879
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T11:50:23.993Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.198136,
+      "lon": 11.555086
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:51:47.397Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.170288,
+      "lon": 11.723377
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T06:39:55.461Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.170878,
+      "lon": 11.394519
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T06:29:09.975Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.189581,
+      "lon": 11.790046
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T08:53:20.939Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.131988,
+      "lon": 11.521176
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T12:40:50.807Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.213492,
+      "lon": 11.387672
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T07:44:45.488Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.109,
+      "lon": 11.501661
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T06:01:37.736Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.184189,
+      "lon": 11.477804
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T12:53:30.586Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.085389,
+      "lon": 11.610587
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T12:41:00.990Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.226639,
+      "lon": 11.547647
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T08:41:10.866Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.187075,
+      "lon": 11.791017
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:05:50.806Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.082867,
+      "lon": 11.649348
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:25:24.378Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.070208,
+      "lon": 11.678059
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:17:10.675Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.036111,
+      "lon": 11.56411
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T07:52:31.920Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.156286,
+      "lon": 11.795868
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:56:33.892Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.205167,
+      "lon": 11.652187
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T07:04:18.679Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.213391,
+      "lon": 11.694671
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T04:26:18.738Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.059855,
+      "lon": 11.750892
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T04:46:05.678Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.172574,
+      "lon": 11.460588
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:50:00.197Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.064699,
+      "lon": 11.741794
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T10:58:55.427Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.192757,
+      "lon": 11.752793
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:25:50.408Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.144216,
+      "lon": 11.545675
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T01:20:16.467Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.175473,
+      "lon": 11.67202
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T05:55:57.098Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.098738,
+      "lon": 11.679976
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:05:39.406Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.139389,
+      "lon": 11.759076
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T05:43:21.324Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.211478,
+      "lon": 11.691594
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T06:18:04.624Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.229921,
+      "lon": 11.768212
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T06:23:38.940Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.160727,
+      "lon": 11.58309
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T12:50:52.385Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.210437,
+      "lon": 11.621703
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T08:28:07.167Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.150277,
+      "lon": 11.358082
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T12:40:27.342Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.146008,
+      "lon": 11.372403
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:40:57.595Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.041259,
+      "lon": 11.602347
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:43:46.681Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.064394,
+      "lon": 11.777475
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:24:50.706Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.201161,
+      "lon": 11.700358
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T11:32:32.513Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.117853,
+      "lon": 11.660037
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T05:27:00.628Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.195976,
+      "lon": 11.602399
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T11:21:55.575Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.046003,
+      "lon": 11.63453
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T06:20:31.568Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.079171,
+      "lon": 11.625542
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T05:55:25.250Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.063937,
+      "lon": 11.546309
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T07:40:20.567Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.040979,
+      "lon": 11.625497
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:52:42.020Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.22753,
+      "lon": 11.369116
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T08:36:39.370Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.144153,
+      "lon": 11.437997
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:37:00.553Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.044605,
+      "lon": 11.482644
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:37:30.090Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.082392,
+      "lon": 11.521659
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:11:25.007Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.15033,
+      "lon": 11.525809
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:47:43.909Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.128844,
+      "lon": 11.659767
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T04:03:23.166Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.121148,
+      "lon": 11.545516
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T05:22:24.496Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.040006,
+      "lon": 11.505809
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T01:20:35.728Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.162287,
+      "lon": 11.651262
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:56:12.482Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.074769,
+      "lon": 11.770756
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T12:31:29.884Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.228368,
+      "lon": 11.805299
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T05:14:37.023Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.057903,
+      "lon": 11.447628
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T08:21:03.289Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.210856,
+      "lon": 11.36115
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:06:52.082Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.196958,
+      "lon": 11.376497
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T07:06:09.543Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.152004,
+      "lon": 11.516099
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:26:07.435Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.11285,
+      "lon": 11.679628
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T06:20:47.111Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.074982,
+      "lon": 11.492802
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T10:50:40.189Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.093101,
+      "lon": 11.716162
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:03:27.225Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.142669,
+      "lon": 11.617336
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T10:57:39.201Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.124794,
+      "lon": 11.365703
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T05:06:00.987Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.124655,
+      "lon": 11.751435
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T10:59:14.628Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.072092,
+      "lon": 11.397179
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T12:22:48.086Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.171705,
+      "lon": 11.658223
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T10:54:25.764Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.065097,
+      "lon": 11.713566
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T10:16:50.738Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.088561,
+      "lon": 11.769464
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T05:29:15.860Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.165258,
+      "lon": 11.69179
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:49:21.774Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.050508,
+      "lon": 11.429325
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T10:45:24.383Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.167218,
+      "lon": 11.713631
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T04:21:26.924Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.129327,
+      "lon": 11.590178
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T04:05:29.807Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.197853,
+      "lon": 11.62356
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T11:40:07.092Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.079133,
+      "lon": 11.50322
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T06:03:45.874Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.166383,
+      "lon": 11.80703
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T07:29:56.035Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.087038,
+      "lon": 11.718384
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T10:23:20.354Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.054,
+      "lon": 11.403831
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:23:17.314Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.172534,
+      "lon": 11.779982
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T05:11:51.250Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.036494,
+      "lon": 11.360752
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:31:48.916Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.102644,
+      "lon": 11.515524
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T11:03:33.871Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.185423,
+      "lon": 11.7081
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T06:46:51.778Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.113896,
+      "lon": 11.587336
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:37:05.466Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.138333,
+      "lon": 11.660058
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T11:42:44.074Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.105621,
+      "lon": 11.698805
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T01:50:21.983Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.18546,
+      "lon": 11.628024
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T07:34:22.248Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.174321,
+      "lon": 11.430528
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T04:03:52.157Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.149782,
+      "lon": 11.767148
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T07:12:43.366Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.131527,
+      "lon": 11.386571
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T04:06:30.682Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.227536,
+      "lon": 11.710037
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:34:20.236Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.035512,
+      "lon": 11.606453
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:36:44.793Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.194304,
+      "lon": 11.676642
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T07:13:10.944Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.109245,
+      "lon": 11.543496
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:29:22.946Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.040369,
+      "lon": 11.447676
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:26:01.920Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.158328,
+      "lon": 11.409971
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:55:44.054Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.180704,
+      "lon": 11.446699
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T08:52:36.904Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.156105,
+      "lon": 11.399096
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T08:58:32.411Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.155375,
+      "lon": 11.47769
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:31:36.774Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.109011,
+      "lon": 11.683296
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T10:41:07.125Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.15496,
+      "lon": 11.730585
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T06:33:17.679Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.143247,
+      "lon": 11.737403
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T06:39:13.831Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.068266,
+      "lon": 11.804375
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T12:38:54.037Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.229973,
+      "lon": 11.509427
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T08:12:23.638Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.173389,
+      "lon": 11.418034
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T11:25:11.401Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.222938,
+      "lon": 11.573657
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:14:04.462Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.201761,
+      "lon": 11.704519
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T07:59:57.299Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.168664,
+      "lon": 11.671407
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T08:09:12.075Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.149907,
+      "lon": 11.454017
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T12:24:47.554Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.110122,
+      "lon": 11.617021
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T10:34:31.723Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.089687,
+      "lon": 11.464401
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T12:52:32.006Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.218553,
+      "lon": 11.447083
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T12:00:22.600Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.121014,
+      "lon": 11.794877
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:56:21.249Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.196657,
+      "lon": 11.445797
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T11:32:51.512Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.163326,
+      "lon": 11.462681
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T07:46:54.530Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.208689,
+      "lon": 11.451301
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T07:49:02.185Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.159486,
+      "lon": 11.459131
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:38:30.787Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.046217,
+      "lon": 11.478116
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T04:07:22.187Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.151313,
+      "lon": 11.37664
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:28:33.039Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.039027,
+      "lon": 11.556088
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T01:10:01.497Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.089515,
+      "lon": 11.530956
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T05:18:29.879Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.10662,
+      "lon": 11.373026
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T11:39:14.443Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.182845,
+      "lon": 11.725099
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T08:13:01.895Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.11066,
+      "lon": 11.404504
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T10:48:53.346Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.16245,
+      "lon": 11.518476
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:26:37.851Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.222844,
+      "lon": 11.365019
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T05:50:02.866Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.206816,
+      "lon": 11.610637
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T04:18:39.924Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.124093,
+      "lon": 11.405941
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T12:36:46.986Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.142842,
+      "lon": 11.405889
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T01:13:14.406Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.12082,
+      "lon": 11.460858
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:43:15.201Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.191925,
+      "lon": 11.708256
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T12:33:58.049Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.204444,
+      "lon": 11.580576
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:29:57.700Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.125331,
+      "lon": 11.641818
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T07:20:06.327Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.091303,
+      "lon": 11.736442
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T07:54:19.471Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.190526,
+      "lon": 11.569127
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T04:44:28.503Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.131658,
+      "lon": 11.425468
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T10:15:01.763Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.158832,
+      "lon": 11.422322
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T07:04:29.792Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.095583,
+      "lon": 11.470954
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:37:04.064Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.069819,
+      "lon": 11.574805
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:32:35.644Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.116124,
+      "lon": 11.395661
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:35:07.060Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.0689,
+      "lon": 11.625837
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:31:23.598Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.218109,
+      "lon": 11.728739
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T08:53:20.464Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.167192,
+      "lon": 11.611762
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:36:06.995Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.148833,
+      "lon": 11.4729
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:11:58.060Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.042861,
+      "lon": 11.550718
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T01:13:41.892Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.195626,
+      "lon": 11.458835
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T01:37:35.669Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.223551,
+      "lon": 11.374407
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T06:52:24.499Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.079171,
+      "lon": 11.776008
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T05:43:09.958Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.045087,
+      "lon": 11.375426
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T07:59:15.395Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.199942,
+      "lon": 11.685091
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T03:12:47.352Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.205442,
+      "lon": 11.760741
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T11:05:16.568Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.180804,
+      "lon": 11.461114
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T09:26:54.565Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.095962,
+      "lon": 11.551896
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T01:40:07.037Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.101814,
+      "lon": 11.393484
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T01:20:10.445Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.063721,
+      "lon": 11.360365
+    },
+    "distance": "MEDIUM",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T06:29:51.525Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.034112,
+      "lon": 11.367616
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T10:23:15.352Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.088717,
+      "lon": 11.4569
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T11:55:41.532Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.177835,
+      "lon": 11.524632
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T05:02:32.059Z",
+    "type": "TROOPS",
+    "location": {
+      "lat": 48.068652,
+      "lon": 11.408855
+    },
+    "distance": "CLOSE",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:39:20.107Z",
+    "type": "EXPLOSION",
+    "location": {
+      "lat": 48.04511,
+      "lon": 11.783557
+    },
+    "distance": "FAR",
+    "score": 1
+  },
+  {
+    "timestamp": "2022-01-01T02:34:11.118Z",
+    "type": "VEHICLES",
+    "location": {
+      "lat": 48.224746,
+      "lon": 11.626918
+    },
+    "distance": "CLOSE",
+    "score": 1
+  }
+]
