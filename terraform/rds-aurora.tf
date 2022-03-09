@@ -18,7 +18,7 @@ resource "aws_rds_cluster" "cluster" {
   master_password         = random_password.master_password.result
 
   scaling_configuration {
-    max_capacity             = 16
+    max_capacity             = 4
     min_capacity             = 2
   }
 }
