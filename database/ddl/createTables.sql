@@ -21,6 +21,7 @@ create table ugt.incident
     incident_type      varchar(30)              not null,
     location_lat       double precision,
     location_lon       double precision,
+    location           point,
     distance           varchar(30),
     status             varchar(30)              not null,
     score              numeric(2)               not null,

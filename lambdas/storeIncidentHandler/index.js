@@ -2,9 +2,9 @@ var AWS = require('aws-sdk');
 var uuid = AWS.util.uuid;
 
 const INSERT_INCIDENT = `INSERT INTO ugt.incident (id, incident_timestamp, incident_type, location_lat, location_lon,
-                                                   distance, status, score, created_on)
-                         VALUES (:id::uuid, :incident_timestamp::timestamp, :incident_type, :location_lat,
-                                 :location_lon, :distance, :status, :score, :created_on::timestamp)`;
+                                                   location, distance, status, score, created_on)
+                         VALUES (:id::uuid, :incident_timestamp::timestamp, :incident_type, :location_lat, :location_lon, 
+                                 point(:location_lat, :location_lon), :distance, :status, :score, :created_on::timestamp)`;
 const INSERT_INCIDENT_USER = `INSERT INTO ugt.incident_user(user_id, incident_id)
                               VALUES (:user_id::uuid, :incident_id::uuid)`;
 
@@ -16,7 +16,7 @@ const SELECT_USER_BY_EXTERNAL_ID = `SELECT *
 
 exports.handler = async (event) => {
     // Parse body of message object
-    const eventBody = JSON.parse(event?.Records[0].body);
+    const eventBody = event;
 
     const dataClient = require('data-api-client')({
         secretArn: process.env.SECRET_ARN,
@@ -40,7 +40,7 @@ const getOrCreateUser = async (client, body) => {
         id: userId,
         external_id: inputUser.id,
         language_code: inputUser.language_code,
-        score: 0,
+        score: 1,
         created_on: new Date().toISOString()
     };
 
@@ -66,11 +66,11 @@ const createIncident = async (dataClient, userId, eventBody) => {
         id: incidentId,
         incident_timestamp: inputIncident.timestamp,
         incident_type: inputIncident.type,
-        location_lat: inputIncident.location.lat,
-        location_lon: inputIncident.location.lon,
+        location_lat: inputIncident.location?.lat || null,
+        location_lon: inputIncident.location?.lon || null,
         distance: inputIncident.distance,
         status: 'PENDING',
-        score: 0,
+        score: 1,
         created_on: new Date().toISOString()
     };
 
