@@ -16,7 +16,7 @@ const SELECT_USER_BY_EXTERNAL_ID = `SELECT *
 
 exports.handler = async (event) => {
     // Parse body of message object
-    const eventBody = event;
+    const eventBody = JSON.parse(event?.Records[0].body);
 
     const dataClient = require('data-api-client')({
         secretArn: process.env.SECRET_ARN,
