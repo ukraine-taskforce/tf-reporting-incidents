@@ -47,8 +47,12 @@ resource "aws_api_gateway_deployment" "reporting-incidents-deployment" {
   }
 
   depends_on = [
-    aws_api_gateway_integration.reporting-incidents_report-post_integration,
-    aws_api_gateway_integration_response.reporting-incidents_report-post-response_integration_200,
+    aws_api_gateway_integration.reporting-incidents_incident-post_integration,
+    aws_api_gateway_integration.reporting-incidents_incident-get_integration,
+    aws_api_gateway_integration_response.reporting-incidents_incident-post-response_integration_200,
+    aws_api_gateway_integration_response.reporting-incidents_incident-get-response_integration_200,
+    aws_api_gateway_method.reporting-incidents_get-incident,
+    aws_api_gateway_method_response.reporting-incidents_incident-get-response_200,
     aws_api_gateway_rest_api.reporting-incidents
   ]
 }
@@ -84,16 +88,16 @@ resource "aws_api_gateway_resource" "reporting-incidents_v1-resource" {
   rest_api_id = aws_api_gateway_rest_api.reporting-incidents.id
 }
 
-resource "aws_api_gateway_resource" "reporting-incidents_report-resource" {
+resource "aws_api_gateway_resource" "reporting-incidents_incident-resource" {
   parent_id   = aws_api_gateway_resource.reporting-incidents_v1-resource.id
-  path_part   = "report"
+  path_part   = "incident"
   rest_api_id = aws_api_gateway_rest_api.reporting-incidents.id
 }
 
-resource "aws_api_gateway_method" "reporting-incidents_post-report" {
+resource "aws_api_gateway_method" "reporting-incidents_post-incident" {
   authorization = "NONE"
   http_method   = "POST"
-  resource_id   = aws_api_gateway_resource.reporting-incidents_report-resource.id
+  resource_id   = aws_api_gateway_resource.reporting-incidents_incident-resource.id
   rest_api_id   = aws_api_gateway_rest_api.reporting-incidents.id
 }
 
@@ -118,9 +122,9 @@ resource "aws_api_gateway_method_settings" "reporting-incidents_method-settings"
   }
 }
 
-resource "aws_api_gateway_integration" "reporting-incidents_report-post_integration" {
-  http_method             = aws_api_gateway_method.reporting-incidents_post-report.http_method
-  resource_id             = aws_api_gateway_resource.reporting-incidents_report-resource.id
+resource "aws_api_gateway_integration" "reporting-incidents_incident-post_integration" {
+  http_method             = aws_api_gateway_method.reporting-incidents_post-incident.http_method
+  resource_id             = aws_api_gateway_resource.reporting-incidents_incident-resource.id
   rest_api_id             = aws_api_gateway_rest_api.reporting-incidents.id
   type                    = "AWS"
   integration_http_method = "POST"
@@ -136,18 +140,18 @@ resource "aws_api_gateway_integration" "reporting-incidents_report-post_integrat
   }
 }
 
-resource "aws_api_gateway_method_response" "reporting-incidents_report-post-response_200" {
+resource "aws_api_gateway_method_response" "reporting-incidents_incident-post-response_200" {
   rest_api_id = aws_api_gateway_rest_api.reporting-incidents.id
-  resource_id = aws_api_gateway_resource.reporting-incidents_report-resource.id
-  http_method = aws_api_gateway_method.reporting-incidents_post-report.http_method
+  resource_id = aws_api_gateway_resource.reporting-incidents_incident-resource.id
+  http_method = aws_api_gateway_method.reporting-incidents_post-incident.http_method
   status_code = "200"
 }
 
-resource "aws_api_gateway_integration_response" "reporting-incidents_report-post-response_integration_200" {
+resource "aws_api_gateway_integration_response" "reporting-incidents_incident-post-response_integration_200" {
   rest_api_id = aws_api_gateway_rest_api.reporting-incidents.id
-  resource_id = aws_api_gateway_resource.reporting-incidents_report-resource.id
-  http_method = aws_api_gateway_method.reporting-incidents_post-report.http_method
-  status_code = aws_api_gateway_method_response.reporting-incidents_report-post-response_200.status_code
+  resource_id = aws_api_gateway_resource.reporting-incidents_incident-resource.id
+  http_method = aws_api_gateway_method.reporting-incidents_post-incident.http_method
+  status_code = aws_api_gateway_method_response.reporting-incidents_incident-post-response_200.status_code
 
   response_templates = {
     "application/json" = <<EOF
@@ -158,11 +162,57 @@ EOF
   }
 
   depends_on = [
-    aws_api_gateway_integration.reporting-incidents_report-post_integration
+    aws_api_gateway_integration.reporting-incidents_incident-post_integration
+  ]
+}
+
+# Endpoint to return incidents
+resource "aws_api_gateway_method" "reporting-incidents_get-incident" {
+  authorization = "NONE"
+  http_method   = "GET"
+  resource_id   = aws_api_gateway_resource.reporting-incidents_incident-resource.id
+  rest_api_id   = aws_api_gateway_rest_api.reporting-incidents.id
+}
+
+resource "aws_api_gateway_integration" "reporting-incidents_incident-get_integration" {
+  http_method             = aws_api_gateway_method.reporting-incidents_get-incident.http_method
+  resource_id             = aws_api_gateway_resource.reporting-incidents_incident-resource.id
+  rest_api_id             = aws_api_gateway_rest_api.reporting-incidents.id
+  type                    = "MOCK"
+
+  request_templates = {
+    "application/json" = "{\"statusCode\": 200}"
+  }
+}
+
+resource "aws_api_gateway_method_response" "reporting-incidents_incident-get-response_200" {
+  rest_api_id = aws_api_gateway_rest_api.reporting-incidents.id
+  resource_id = aws_api_gateway_resource.reporting-incidents_incident-resource.id
+  http_method = aws_api_gateway_method.reporting-incidents_get-incident.http_method
+  status_code = "200"
+}
+
+data "template_file" "reporting-incidents_incident-get-response_template" {
+  template = file("../testdata/testdata.json")
+}
+
+resource "aws_api_gateway_integration_response" "reporting-incidents_incident-get-response_integration_200" {
+  rest_api_id = aws_api_gateway_rest_api.reporting-incidents.id
+  resource_id = aws_api_gateway_resource.reporting-incidents_incident-resource.id
+  http_method = aws_api_gateway_method.reporting-incidents_get-incident.http_method
+  status_code = aws_api_gateway_method_response.reporting-incidents_incident-get-response_200.status_code
+
+  response_templates = {
+    "application/json" = data.template_file.reporting-incidents_incident-get-response_template.rendered
+  }
+
+  depends_on = [
+    aws_api_gateway_integration.reporting-incidents_incident-get_integration
   ]
 }
 
 
+# Api Gateway - BOT State
 resource "aws_apigatewayv2_api" "bot-client-api" {
   name          = "api-${random_id.id.hex}"
   protocol_type = "HTTP"
