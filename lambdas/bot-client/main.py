@@ -10,6 +10,7 @@ from telebot.types import Update, ReplyKeyboardMarkup, KeyboardButton
 from state import ConversationState, get_state, update_state, set_state, delete_state
 from bot import init_bot
 from reporting import send_report
+from network import from_telegram_network
 
 logging.getLogger().setLevel(logging.INFO)
 logger = logging.getLogger(__name__)
@@ -85,13 +86,15 @@ def lambda_handler(event: dict, context):
     if request.get("setWebhook", False):
         bot.remove_webhook()
         webhook = f"{os.environ['domain']}/{os.environ['path_key']}/"
-        logger.info(f"Set webhook to {webhook}")
         bot.set_webhook(url=webhook)
-        return {'statusCode': 200, 'body': json.dumps(f'Webhook set to {webhook}')}
+        return {'statusCode': 200}
     elif request.get("sendDirectMessage", False):
         to_user = request["telegramUID"]
         bot.send_message(to_user, request["telegramUID"])
         return {'statusCode': 200}
+
+    if not from_telegram_network(event["headers"]["x-forwarded-for"]):
+        return {'statusCode': 403}
 
     update = Update.de_json(request)
     if not update.message:
