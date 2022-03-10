@@ -29,7 +29,7 @@ create table ugt.incident
     created_on         timestamp with time zone not null
 );
 
-CREATE INDEX idx_incident_timestamp ON ugt.incident(incident_timestamp);
+CREATE INDEX idx_incident_timestamp_type ON ugt.incident(incident_timestamp, incident_type);
 
 create table ugt.incident_user
 (
