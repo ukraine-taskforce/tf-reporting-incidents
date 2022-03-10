@@ -34,7 +34,7 @@ const getDbConnection = async() => {
     const { Pool } = require("pg");
     const SecretsManager = require('./SecretsManager.js');
 
-    var secretName = 'rds/aurora/pgsql';
+    var secretName = 'rds/aurora/reporting-incidents-serverless';
     var region = 'eu-central-1';
 
     var secretsManager = JSON.parse(await SecretsManager.getSecret(secretName, region));
