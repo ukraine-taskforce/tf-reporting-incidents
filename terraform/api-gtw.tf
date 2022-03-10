@@ -48,11 +48,12 @@ resource "aws_api_gateway_deployment" "reporting-incidents-deployment" {
 
   depends_on = [
     aws_api_gateway_integration.reporting-incidents_incident-post_integration,
+    aws_api_gateway_integration.reporting-incidents_incident-get_mock-integration,
     aws_api_gateway_integration.reporting-incidents_incident-get_integration,
     aws_api_gateway_integration_response.reporting-incidents_incident-post-response_integration_200,
-    aws_api_gateway_integration_response.reporting-incidents_incident-get-response_integration_200,
-    aws_api_gateway_method.reporting-incidents_get-incident,
-    aws_api_gateway_method_response.reporting-incidents_incident-get-response_200,
+    aws_api_gateway_integration_response.reporting-incidents_incident-mock-get-response_integration_200,
+    aws_api_gateway_method.reporting-incidents_get-mock-incident,
+    aws_api_gateway_method_response.reporting-incidents_incident-mock-get-response_200,
     aws_api_gateway_rest_api.reporting-incidents
   ]
 }
@@ -166,7 +167,58 @@ EOF
   ]
 }
 
-# Endpoint to return incidents
+# Endpoint to return MOCK incidents
+resource "aws_api_gateway_resource" "reporting-incidents_incident-mock-resource" {
+  parent_id   = aws_api_gateway_resource.reporting-incidents_incident-resource.id
+  path_part   = "mock"
+  rest_api_id = aws_api_gateway_rest_api.reporting-incidents.id
+}
+
+resource "aws_api_gateway_method" "reporting-incidents_get-mock-incident" {
+  authorization = "NONE"
+  http_method   = "GET"
+  resource_id   = aws_api_gateway_resource.reporting-incidents_incident-mock-resource.id
+  rest_api_id   = aws_api_gateway_rest_api.reporting-incidents.id
+}
+
+resource "aws_api_gateway_integration" "reporting-incidents_incident-get_mock-integration" {
+  http_method             = aws_api_gateway_method.reporting-incidents_get-mock-incident.http_method
+  resource_id             = aws_api_gateway_resource.reporting-incidents_incident-mock-resource.id
+  rest_api_id             = aws_api_gateway_rest_api.reporting-incidents.id
+  type                    = "MOCK"
+
+  request_templates = {
+    "application/json" = "{\"statusCode\": 200}"
+  }
+}
+
+resource "aws_api_gateway_method_response" "reporting-incidents_incident-mock-get-response_200" {
+  rest_api_id = aws_api_gateway_rest_api.reporting-incidents.id
+  resource_id = aws_api_gateway_resource.reporting-incidents_incident-mock-resource.id
+  http_method = aws_api_gateway_method.reporting-incidents_get-mock-incident.http_method
+  status_code = "200"
+}
+
+data "template_file" "reporting-incidents_incident-mock-get-response_template" {
+  template = file("../testdata/testdata.json")
+}
+
+resource "aws_api_gateway_integration_response" "reporting-incidents_incident-mock-get-response_integration_200" {
+  rest_api_id = aws_api_gateway_rest_api.reporting-incidents.id
+  resource_id = aws_api_gateway_resource.reporting-incidents_incident-mock-resource.id
+  http_method = aws_api_gateway_method.reporting-incidents_get-mock-incident.http_method
+  status_code = aws_api_gateway_method_response.reporting-incidents_incident-mock-get-response_200.status_code
+
+  response_templates = {
+    "application/json" = data.template_file.reporting-incidents_incident-mock-get-response_template.rendered
+  }
+
+  depends_on = [
+    aws_api_gateway_integration.reporting-incidents_incident-get_mock-integration
+  ]
+}
+
+# Endpoint to return real incidents
 resource "aws_api_gateway_method" "reporting-incidents_get-incident" {
   authorization = "NONE"
   http_method   = "GET"
@@ -178,11 +230,10 @@ resource "aws_api_gateway_integration" "reporting-incidents_incident-get_integra
   http_method             = aws_api_gateway_method.reporting-incidents_get-incident.http_method
   resource_id             = aws_api_gateway_resource.reporting-incidents_incident-resource.id
   rest_api_id             = aws_api_gateway_rest_api.reporting-incidents.id
-  type                    = "MOCK"
-
-  request_templates = {
-    "application/json" = "{\"statusCode\": 200}"
-  }
+  type                    = "AWS_PROXY"
+  integration_http_method = "POST"
+  credentials             = aws_iam_role.apiSQS.arn
+  uri                     = aws_lambda_function.reportsOnIncidents_readIncident_lambdaFn.invoke_arn
 }
 
 resource "aws_api_gateway_method_response" "reporting-incidents_incident-get-response_200" {
@@ -191,26 +242,6 @@ resource "aws_api_gateway_method_response" "reporting-incidents_incident-get-res
   http_method = aws_api_gateway_method.reporting-incidents_get-incident.http_method
   status_code = "200"
 }
-
-data "template_file" "reporting-incidents_incident-get-response_template" {
-  template = file("../testdata/testdata.json")
-}
-
-resource "aws_api_gateway_integration_response" "reporting-incidents_incident-get-response_integration_200" {
-  rest_api_id = aws_api_gateway_rest_api.reporting-incidents.id
-  resource_id = aws_api_gateway_resource.reporting-incidents_incident-resource.id
-  http_method = aws_api_gateway_method.reporting-incidents_get-incident.http_method
-  status_code = aws_api_gateway_method_response.reporting-incidents_incident-get-response_200.status_code
-
-  response_templates = {
-    "application/json" = data.template_file.reporting-incidents_incident-get-response_template.rendered
-  }
-
-  depends_on = [
-    aws_api_gateway_integration.reporting-incidents_incident-get_integration
-  ]
-}
-
 
 # Api Gateway - BOT State
 resource "aws_apigatewayv2_api" "bot-client-api" {

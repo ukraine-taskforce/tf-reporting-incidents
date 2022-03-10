@@ -17,6 +17,13 @@
     {
       "Effect": "Allow",
       "Action": [
+        "lambda:InvokeFunction"
+      ],
+      "Resource": "*"
+    },
+    {
+      "Effect": "Allow",
+      "Action": [
         "sqs:GetQueueUrl",
         "sqs:ChangeMessageVisibility",
         "sqs:ListDeadLetterSourceQueues",
