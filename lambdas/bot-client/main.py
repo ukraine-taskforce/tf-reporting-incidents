@@ -28,9 +28,14 @@ class ConversationHandler:
         self.conversation = json.loads(open("conversation.json").read())
         logger.info(self.conversation)
 
-    def __list_messages(self, category):
+    def __list_messages(self, category, **condition_parameters):
         for message in self.conversation[category]:
-            text = message["text"].get(self.language_code, message["text"]["en"])
+            text = None
+            for conditional_text in message.get("conditional_text", []):
+                if eval(conditional_text["condition"] % condition_parameters):
+                    text = conditional_text["text"].get(self.language_code, conditional_text["text"]["en"])
+            if text is None:
+                text = message["text"].get(self.language_code, message["text"]["en"])
             if "reply_markup" not in message:
                 yield text, {}
             else:
@@ -79,7 +84,7 @@ class ConversationHandler:
         selected_category = self.__get_button_id(INCIDENT, self.message.text)
         state["incident"]["type"] = selected_category
 
-        for message_text, kwargs in self.__list_messages(DISTANCE):
+        for message_text, kwargs in self.__list_messages(DISTANCE, incident_id=selected_category):
             bot.send_message(self.chat_id, message_text % {INCIDENT: self.message.text.lower()}, **kwargs)
 
         update_state(self.user_id, ConversationState.LOCATION_DETAILS, state)
