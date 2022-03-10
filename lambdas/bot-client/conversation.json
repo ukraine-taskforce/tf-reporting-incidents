@@ -40,9 +40,20 @@
   ],
   "distance": [
     {
-      "text": {
-        "en": "How close did the %(incident)s happen to you?"
-      },
+      "conditional_text": [
+        {
+          "condition": "\"%(incident_id)s\" == \"GROUND\"",
+          "text": {
+            "en": "How close did the ground attack happen to you?"
+          }
+        },
+        {
+          "condition": "\"%(incident_id)s\" == \"AERIAL\"",
+          "text": {
+            "en": "How close did the aerial attack happen to you?"
+          }
+        }
+      ],
       "reply_markup": [
         {
           "id": "NEXT_TO_ME",
