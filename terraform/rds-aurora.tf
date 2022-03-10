@@ -25,6 +25,7 @@ resource "aws_rds_cluster" "cluster" {
 
 resource "aws_secretsmanager_secret" "rds_credentials" {
   name = "rds/aurora/${aws_rds_cluster.cluster.cluster_identifier}"
+  recovery_window_in_days = 0
 }
 
 resource "aws_secretsmanager_secret_version" "rds_credentials" {
@@ -36,7 +37,8 @@ resource "aws_secretsmanager_secret_version" "rds_credentials" {
   "engine": "postgres",
   "host": "${aws_rds_cluster.cluster.endpoint}",
   "port": ${aws_rds_cluster.cluster.port},
-  "dbClusterIdentifier": "${aws_rds_cluster.cluster.cluster_identifier}"
+  "dbClusterIdentifier": "${aws_rds_cluster.cluster.cluster_identifier}",
+  "database_name": "${aws_rds_cluster.cluster.database_name}"
 }
 EOF
 }

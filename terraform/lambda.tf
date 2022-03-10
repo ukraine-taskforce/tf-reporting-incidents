@@ -22,8 +22,6 @@ data "archive_file" "lambda_storeIncidentHandler_file" {
 resource "aws_lambda_function" "reportsOnIncidents_lambdaFn" {
   function_name = "ReportOnIncidents-StoreIncident"
 
-#  s3_bucket = aws_s3_bucket.ugt_lambda_states.id
-#  s3_key    = aws_s3_object.lambda_storeIncidentHandler.key
   filename         = data.archive_file.lambda_storeIncidentHandler_file.output_path
   source_code_hash = data.archive_file.lambda_storeIncidentHandler_file.output_base64sha256
 
@@ -59,6 +57,60 @@ resource "aws_lambda_event_source_mapping" "reportsOnIncidents_event_source_mapp
   event_source_arn = aws_sqs_queue.reporting-incidents_sqs.arn
   enabled          = true
   function_name    = aws_lambda_function.reportsOnIncidents_lambdaFn.arn
+}
+
+# Lambda: Read reported incidents
+resource "null_resource" "lambda_readIncidentHandler_installDependencies" {
+  provisioner "local-exec" {
+    working_dir = "${path.module}/../lambdas/readIncidentHandler"
+    command = "npm install"
+  }
+
+  triggers = {
+    rerun_every_time = uuid()
+  }
+}
+
+data "archive_file" "lambda_readIncidentHandler_file" {
+  type = "zip"
+
+  source_dir  = "${path.module}/../lambdas/readIncidentHandler"
+  output_path = "${path.module}/readIncidentHandler.zip"
+
+  depends_on = [ null_resource.lambda_readIncidentHandler_installDependencies ]
+}
+
+resource "aws_lambda_function" "reportsOnIncidents_readIncident_lambdaFn" {
+  function_name = "ReportOnIncidents-ReadIncident"
+
+  filename         = data.archive_file.lambda_readIncidentHandler_file.output_path
+  source_code_hash = data.archive_file.lambda_readIncidentHandler_file.output_base64sha256
+
+  runtime = "nodejs14.x"
+  handler = "index.handler"
+
+  role = aws_iam_role.reportsOnIncidents-lambda-role.arn
+
+  environment {
+    variables = {
+      SECRET_ARN : aws_secretsmanager_secret.rds_credentials.arn,
+      RDS_DB_ARN : aws_rds_cluster.cluster.arn
+    }
+  }
+}
+
+resource "aws_cloudwatch_log_group" "reportsOnIncidents_readIncident_logGroup" {
+  name              = "/aws/lambda/${aws_lambda_function.reportsOnIncidents_readIncident_lambdaFn.function_name}"
+  retention_in_days = 30
+}
+
+resource "aws_lambda_permission" "reportsOnIncidents_readIncident_ApiGtwPermission" {
+  statement_id  = "AllowExecutionFromAPIGateway"
+  action        = "lambda:InvokeFunction"
+  function_name = aws_lambda_function.reportsOnIncidents_readIncident_lambdaFn.function_name
+  principal     = "apigateway.amazonaws.com"
+
+  source_arn = "${aws_api_gateway_rest_api.reporting-incidents.execution_arn}/*/${aws_api_gateway_method.reporting-incidents_get-incident.http_method}${aws_api_gateway_resource.reporting-incidents_incident-resource.path}"
 }
 
 ###### Bot client lambda
