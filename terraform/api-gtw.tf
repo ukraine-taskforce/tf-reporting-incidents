@@ -258,9 +258,17 @@ resource "aws_apigatewayv2_integration" "bot-client-api" {
   payload_format_version = "2.0"
 }
 
-resource "aws_apigatewayv2_route" "bot-client-api" {
+resource "aws_apigatewayv2_route" "bot-client-api-webhook" {
   api_id    = aws_apigatewayv2_api.bot-client-api.id
-  route_key = "ANY /${random_id.random_path.hex}/{proxy+}"
+  route_key = "POST /${random_id.random_path.hex}/webhook/{proxy+}"
+
+  target = "integrations/${aws_apigatewayv2_integration.bot-client-api.id}"
+}
+
+resource "aws_apigatewayv2_route" "bot-client-api-send_message" {
+  api_id    = aws_apigatewayv2_api.bot-client-api.id
+  route_key = "POST /${random_id.random_path.hex}/send_message/{proxy+}"
+  authorization_type = "AWS_IAM"
 
   target = "integrations/${aws_apigatewayv2_integration.bot-client-api.id}"
 }
@@ -269,12 +277,4 @@ resource "aws_apigatewayv2_stage" "bot-client-api" {
   api_id      = aws_apigatewayv2_api.bot-client-api.id
   name        = "$default"
   auto_deploy = true
-}
-
-resource "aws_lambda_permission" "bot-client-api-gw" {
-  action        = "lambda:InvokeFunction"
-  function_name = aws_lambda_function.bot-client-lambda.arn
-  principal     = "apigateway.amazonaws.com"
-
-  source_arn = "${aws_apigatewayv2_api.bot-client-api.execution_arn}/*/*"
 }

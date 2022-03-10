@@ -10,7 +10,7 @@ from telebot.types import Update, ReplyKeyboardMarkup, KeyboardButton
 from state import ConversationState, get_state, update_state, set_state, delete_state
 from bot import init_bot
 from reporting import send_report
-from network import from_telegram_network
+from network import from_telegram_network, is_direct_invocation
 
 logging.getLogger().setLevel(logging.INFO)
 logger = logging.getLogger(__name__)
@@ -83,15 +83,20 @@ def lambda_handler(event: dict, context):
     if isinstance(request, str):
         request = json.loads(request)
 
-    if request.get("setWebhook", False):
+    if request.get("setWebhook", False) and is_direct_invocation(event):
         bot.remove_webhook()
-        webhook = f"{os.environ['domain']}/{os.environ['path_key']}/"
+        webhook = f"{os.environ['domain']}/{os.environ['path_key']}/webhook/"
         bot.set_webhook(url=webhook)
         return {'statusCode': 200}
-    elif request.get("sendDirectMessage", False):
+
+    if event.get('rawPath') == f"/{os.environ['path_key']}/send_message/":
+
         to_user = request["telegramUID"]
-        bot.send_message(to_user, request["telegramUID"])
+        bot.send_message(to_user, request["text"])
         return {'statusCode': 200}
+
+    if event.get('rawPath') != f"/{os.environ['path_key']}/webhook/":
+        return {'statusCode': 404}
 
     if not from_telegram_network(event["headers"]["x-forwarded-for"]):
         return {'statusCode': 403}
