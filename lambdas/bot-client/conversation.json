@@ -1,0 +1,86 @@
+{
+  "start": [
+    {
+      "text": {
+        "en": "Report an incident by clicking the button bellow"
+      },
+      "reply_markup": [
+        {
+          "id": "REPORT_LOCATION",
+          "text": {
+            "en": "Report incident location"
+          },
+          "kwargs": {
+            "request_location": true
+          }
+        }
+      ]
+    }
+  ],
+  "incident": [
+    {
+      "text": {
+        "en": "What do you want to report?"
+      },
+      "reply_markup": [
+        {
+          "id": "AERIAL",
+          "text": {
+            "en": "Aerial attack"
+          }
+        },
+        {
+          "id": "GROUND",
+          "text": {
+            "en": "Ground attack"
+          }
+        }
+      ]
+    }
+  ],
+  "distance": [
+    {
+      "text": {
+        "en": "How close did the %(incident)s happen to you?"
+      },
+      "reply_markup": [
+        {
+          "id": "NEXT_TO_ME",
+          "text": {
+            "en": "Right next to me"
+          }
+        },
+        {
+          "id": "CLOSE",
+          "text": {
+            "en": "5-10 minutes of walk from me"
+          }
+        },
+        {
+          "id": "FAR",
+          "text": {
+            "en": "Visible, but not close"
+          }
+        },
+        {
+          "id": "NOT_SURE",
+          "text": {
+            "en": "I am not sure"
+          }
+        }
+      ]
+    }
+  ],
+  "end": [
+    {
+      "text": {
+        "en": "Your report has been recorded and processed by the authorities."
+      }
+    },
+    {
+      "text": {
+        "en": "Advice for being close to %(incident)s, what to do, how to get to safety asap, what we recommend doing, etc."
+      }
+    }
+  ]
+}
