@@ -175,7 +175,8 @@ resource "aws_api_gateway_resource" "reporting-incidents_incident-mock-resource"
 }
 
 resource "aws_api_gateway_method" "reporting-incidents_get-mock-incident" {
-  authorization = "NONE"
+  authorization = "CUSTOM"
+  authorizer_id = aws_api_gateway_authorizer.api-gateway-authorizer.id
   http_method   = "GET"
   resource_id   = aws_api_gateway_resource.reporting-incidents_incident-mock-resource.id
   rest_api_id   = aws_api_gateway_rest_api.reporting-incidents.id
@@ -220,7 +221,8 @@ resource "aws_api_gateway_integration_response" "reporting-incidents_incident-mo
 
 # Endpoint to return real incidents
 resource "aws_api_gateway_method" "reporting-incidents_get-incident" {
-  authorization = "NONE"
+  authorization = "CUSTOM"
+  authorizer_id = aws_api_gateway_authorizer.api-gateway-authorizer.id
   http_method   = "GET"
   resource_id   = aws_api_gateway_resource.reporting-incidents_incident-resource.id
   rest_api_id   = aws_api_gateway_rest_api.reporting-incidents.id
