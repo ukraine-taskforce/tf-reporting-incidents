@@ -35,6 +35,11 @@ resource "aws_iam_role_policy_attachment" "api_exec_role" {
   policy_arn = aws_iam_policy.api_policy.arn
 }
 
+resource "aws_iam_role_policy_attachment" "apiSQSRole_kmsAccess" {
+  role       = aws_iam_role.apiSQS.name
+  policy_arn = aws_iam_policy.sqs-kms-key-policy.arn
+}
+
 resource "aws_iam_role" "reportsOnIncidents-lambda-role" {
   name = "lambda-role"
 
@@ -72,6 +77,11 @@ resource "aws_iam_role_policy_attachment" "reportsOnIncidents-sqs" {
   policy_arn = aws_iam_policy.reportsOnIncidents-sqs-policy.arn
 }
 
+resource "aws_iam_role_policy_attachment" "reportsOnIncidents-lambda-role_kmsAccess" {
+  role       = aws_iam_role.reportsOnIncidents-lambda-role.name
+  policy_arn = aws_iam_policy.sqs-kms-key-policy.arn
+}
+
 data "template_file" "bot-client-policy" {
   template = file("policies/bot-permission.json")
   vars = {
@@ -84,6 +94,11 @@ data "template_file" "bot-client-policy" {
 resource "aws_iam_role_policy" "lambda_exec_role" {
   role   = aws_iam_role.bot-client-lambda-role.id
   policy = data.template_file.bot-client-policy.rendered
+}
+
+resource "aws_iam_role_policy_attachment" "lambda_exec_role_kmsAccess" {
+  role   = aws_iam_role.bot-client-lambda-role.name
+  policy_arn = aws_iam_policy.sqs-kms-key-policy.arn
 }
 
 resource "aws_iam_role" "bot-client-lambda-role" {
