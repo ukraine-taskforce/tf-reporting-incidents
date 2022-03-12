@@ -25,3 +25,7 @@ def from_telegram_network(address):
             return True
 
     return False
+
+
+def is_direct_invocation(event):
+    return 'rawPath' not in event
