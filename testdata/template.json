@@ -1,0 +1,14 @@
+[
+  // Test data to be pasted into https://json-generator.com/
+  '{{repeat(1000, 1000)}}',
+  {
+    timestamp: '{{date(new Date(2022, 0, 1), new Date(2022,0,2), "YYYY-MM-ddThh:mm:ss.ff")}}' + 'Z',
+    type: '{{random("EXPLOSION", "TROOPS", "VEHICLES")}}',
+    location: {
+      lat: '{{floating(48.231846, 48.031562)}}',
+      lon: '{{floating(11.355289, 11.807312)}}'
+    },
+    distance: '{{random("CLOSE", "MEDIUM", "FAR")}}',
+    score: 1
+  }
+]
