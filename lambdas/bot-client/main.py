@@ -94,10 +94,7 @@ class ConversationHandler:
         state["incident"]["distance"] = self.__get_button_id(DISTANCE, self.message.text)
 
         for message_text, kwargs in self.__list_messages(END):
-            bot.send_message(self.chat_id,
-                             message_text % {
-                                 INCIDENT: self.__get_button_text(INCIDENT, state["incident"]["type"]).lower()},
-                             **kwargs)
+            bot.send_message(self.chat_id, message_text, **kwargs)
         self.start()
 
         response = send_report(state)
