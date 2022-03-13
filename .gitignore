@@ -32,5 +32,6 @@ venv
 lambdas/bot-client/*/*
 terraform/bot-client.zip
 terraform/storeIncidentHandler.zip
+terraform/readIncidentHandler.zip
 terraform/.terraform.lock.hcl
 .idea

@@ -190,3 +190,11 @@ resource "aws_cloudwatch_log_group" "botClientLogGroup" {
   name              = "/aws/lambda/${aws_lambda_function.bot-client-lambda.function_name}"
   retention_in_days = 14
 }
+
+resource "aws_lambda_permission" "bot-client-api-gw" {
+  action        = "lambda:InvokeFunction"
+  function_name = aws_lambda_function.bot-client-lambda.arn
+  principal     = "apigateway.amazonaws.com"
+
+  source_arn = "${aws_apigatewayv2_api.bot-client-api.execution_arn}/*/*"
+}
