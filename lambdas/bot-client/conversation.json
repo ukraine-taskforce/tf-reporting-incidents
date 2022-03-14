@@ -20,19 +20,25 @@
   "incident": [
     {
       "text": {
-        "en": "What do you want to report?"
+        "en": "What would you like to report?"
       },
       "reply_markup": [
         {
-          "id": "AERIAL",
+          "id": "BOMBING_OR_EXPLOSION",
           "text": {
-            "en": "Aerial attack"
+            "en": "\uD83D\uDCA5 Bombing or explosion \uD83D\uDCA5"
           }
         },
         {
-          "id": "GROUND",
+          "id": "MILITARY_ON_FOOT",
           "text": {
-            "en": "Ground attack"
+            "en": "Suspected Russian military on foot"
+          }
+        },
+        {
+          "id": "MILITARY_ON_VEHICLE",
+          "text": {
+            "en": "Suspected Russian military vehicle"
           }
         }
       ]
@@ -42,15 +48,21 @@
     {
       "conditional_text": [
         {
-          "condition": "\"%(incident_id)s\" == \"GROUND\"",
+          "condition": "\"%(incident_id)s\" == \"BOMBING_OR_EXPLOSION\"",
           "text": {
-            "en": "How close did the ground attack happen to you?"
+            "en": "How close did the bombing or explosion happen to the location you shared?"
           }
         },
         {
-          "condition": "\"%(incident_id)s\" == \"AERIAL\"",
+          "condition": "\"%(incident_id)s\" == \"MILITARY_ON_FOOT\"",
           "text": {
-            "en": "How close did the aerial attack happen to you?"
+            "en": "How close did you spot the military on foot to the location you shared?"
+          }
+        },
+        {
+          "condition": "\"%(incident_id)s\" == \"MILITARY_ON_VEHICLE\"",
+          "text": {
+            "en": "How close did you spot the military on vehicle to the location you shared?"
           }
         }
       ],
@@ -90,7 +102,7 @@
     },
     {
       "text": {
-        "en": "Advice for being close to %(incident)s, what to do, how to get to safety asap, what we recommend doing, etc."
+        "en": "Advice for being close to incident, what to do, how to get to safety asap, what we recommend doing, etc."
       }
     }
   ]
