@@ -1,109 +1,179 @@
 {
-  "start": [
-    {
-      "text": {
-        "en": "Report an incident by clicking the button bellow"
+  "start": {
+    "message": [
+      {
+        "text": {
+          "en": "Report an incident by clicking the button bellow"
+        }
+      }
+    ],
+    "reply_markup": [
+      {
+        "id": "REPORT_LOCATION",
+        "text": {
+          "en": "Report incident location"
+        },
+        "kwargs": {
+          "request_location": true
+        }
+      }
+    ]
+  },
+  "incident": {
+    "message": [
+      {
+        "text": {
+          "en": "What would you like to report?"
+        }
+      }
+    ],
+    "reply_markup": [
+      {
+        "id": "BOMBING_OR_EXPLOSION",
+        "text": {
+          "en": "\uD83D\uDCA5 Bombing or explosion \uD83D\uDCA5"
+        }
       },
-      "reply_markup": [
-        {
-          "id": "REPORT_LOCATION",
-          "text": {
-            "en": "Report incident location"
+      {
+        "id": "MILITARY_ON_FOOT",
+        "text": {
+          "en": "Suspected Russian military on foot"
+        }
+      },
+      {
+        "id": "MILITARY_ON_VEHICLE",
+        "text": {
+          "en": "Suspected Russian military vehicle"
+        }
+      }
+    ]
+  },
+  "distance": {
+    "message": [
+      {
+        "conditional_text": [
+          {
+            "condition": "\"{state[incident][type]}\" == \"BOMBING_OR_EXPLOSION\"",
+            "text": {
+              "en": "How close did the bombing or explosion happen to the location you shared?"
+            }
           },
-          "kwargs": {
-            "request_location": true
+          {
+            "condition": "\"{state[incident][type]}\" == \"MILITARY_ON_FOOT\"",
+            "text": {
+              "en": "How close did you spot the military on foot to the location you shared?"
+            }
+          },
+          {
+            "condition": "\"{state[incident][type]}\" == \"MILITARY_ON_VEHICLE\"",
+            "text": {
+              "en": "How close did you spot the military on vehicle to the location you shared?"
+            }
           }
+        ]
+      }
+    ],
+    "reply_markup": [
+      {
+        "id": "NEXT_TO_ME",
+        "text": {
+          "en": "Right next to me"
         }
-      ]
-    }
-  ],
-  "incident": [
-    {
-      "text": {
-        "en": "What would you like to report?"
       },
-      "reply_markup": [
-        {
-          "id": "BOMBING_OR_EXPLOSION",
-          "text": {
-            "en": "\uD83D\uDCA5 Bombing or explosion \uD83D\uDCA5"
-          }
-        },
-        {
-          "id": "MILITARY_ON_FOOT",
-          "text": {
-            "en": "Suspected Russian military on foot"
-          }
-        },
-        {
-          "id": "MILITARY_ON_VEHICLE",
-          "text": {
-            "en": "Suspected Russian military vehicle"
-          }
+      {
+        "id": "CLOSE",
+        "text": {
+          "en": "5-10 minutes of walk from me"
         }
-      ]
-    }
-  ],
-  "distance": [
-    {
-      "conditional_text": [
-        {
-          "condition": "\"%(incident_id)s\" == \"BOMBING_OR_EXPLOSION\"",
-          "text": {
-            "en": "How close did the bombing or explosion happen to the location you shared?"
-          }
-        },
-        {
-          "condition": "\"%(incident_id)s\" == \"MILITARY_ON_FOOT\"",
-          "text": {
-            "en": "How close did you spot the military on foot to the location you shared?"
-          }
-        },
-        {
-          "condition": "\"%(incident_id)s\" == \"MILITARY_ON_VEHICLE\"",
-          "text": {
-            "en": "How close did you spot the military on vehicle to the location you shared?"
-          }
+      },
+      {
+        "id": "FAR",
+        "text": {
+          "en": "Visible, but not close"
         }
-      ],
-      "reply_markup": [
-        {
-          "id": "NEXT_TO_ME",
-          "text": {
-            "en": "Right next to me"
-          }
-        },
-        {
-          "id": "CLOSE",
-          "text": {
-            "en": "5-10 minutes of walk from me"
-          }
-        },
-        {
-          "id": "FAR",
-          "text": {
-            "en": "Visible, but not close"
-          }
-        },
-        {
-          "id": "NOT_SURE",
-          "text": {
-            "en": "I am not sure"
-          }
+      },
+      {
+        "id": "NOT_SURE",
+        "condition": "\"{state[incident][type]}\" == \"BOMBING_OR_EXPLOSION\"",
+        "text": {
+          "en": "I am not sure"
         }
-      ]
-    }
-  ],
-  "end": [
-    {
-      "text": {
-        "en": "Your report has been recorded and processed by the authorities."
       }
-    },
-    {
-      "text": {
-        "en": "Advice for being close to incident, what to do, how to get to safety asap, what we recommend doing, etc."
+    ]
+  },
+  "time": {
+    "message": [
+      {
+        "conditional_text": [
+          {
+            "condition": "\"{state[incident][type]}\" == \"BOMBING_OR_EXPLOSION\"",
+            "text": {
+              "en": "When did the bombing or explosion happen?"
+            }
+          },
+          {
+            "condition": "\"{state[incident][type]}\" == \"MILITARY_ON_FOOT\"",
+            "text": {
+              "en": "When did you spot military on foot?"
+            }
+          },
+          {
+            "condition": "\"{state[incident][type]}\" == \"MILITARY_ON_VEHICLE\"",
+            "text": {
+              "en": "When did you spot military on vehicle?"
+            }
+          }
+        ]
       }
-    }
-  ]
+    ],
+    "reply_markup": [
+      {
+        "id": "NOW",
+        "text": {
+          "en": "Right now"
+        }
+      },
+      {
+        "id": "LESS_THAN_HOUR",
+        "text": {
+          "en": "Less than an hour ago"
+        }
+      },
+      {
+        "id": "ONE_THREE_HOURS_AGO",
+        "text": {
+          "en": "1-3 hours ago"
+        }
+      },
+      {
+        "id": "MORE_THAN_THREE_HOURS",
+        "text": {
+          "en": "More than 3 hours ago"
+        }
+      }
+    ]
+  },
+  "end": {
+    "message": [
+      {
+        "text": {
+          "en": "Your report has been recorded and processed by the authorities."
+        }
+      },
+      {
+        "text": {
+          "en": "Advice for being close to incident, what to do, how to get to safety asap, what we recommend doing, etc."
+        }
+      }
+    ]
+  },
+  "error": {
+    "message": [
+      {
+        "text": {
+          "en": "Information not received.\nPlease use options below.\n⬇️ ⬇️ ⬇️"
+        }
+      }
+    ]
+  }
 }
