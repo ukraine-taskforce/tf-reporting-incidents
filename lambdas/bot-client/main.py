@@ -28,11 +28,13 @@ class ConversationHandler:
         self.conversation = json.loads(open("conversation.json").read())
         logger.info(self.conversation)
 
-    def __list_messages(self, category, **condition_parameters):
+    def __list_messages(self, category, state=None):
+        if state is None:
+            state = {}
         for message in self.conversation[category]:
             text = None
             for conditional_text in message.get("conditional_text", []):
-                if eval(conditional_text["condition"] % condition_parameters):
+                if eval(conditional_text["condition"].format(state=state)):
                     text = conditional_text["text"].get(self.language_code, conditional_text["text"]["en"])
                     break
             if text is None:
@@ -42,7 +44,7 @@ class ConversationHandler:
             else:
                 markup = ReplyKeyboardMarkup(row_width=1, resize_keyboard=True)
                 for button in message["reply_markup"]:
-                    if "condition" in button and not eval(button["condition"] % condition_parameters):
+                    if "condition" in button and not eval(button["condition"].format(state=state)):
                         continue
 
                     markup.add(KeyboardButton(button["text"].get(self.language_code, button["text"]["en"]),
@@ -74,21 +76,22 @@ class ConversationHandler:
         delete_state(self.user_id)
 
     def location(self):
-        for message_text, kwargs in self.__list_messages(INCIDENT):
-            bot.send_message(self.chat_id, message_text, **kwargs)
-
         state = {"user": {"language_code": self.language_code, "id": str(self.user_id)},
                  "incident": {
                      "location": {
                          "lat": self.message.location.latitude, "lon": self.message.location.longitude},
                      "timestamp": datetime.now().replace(microsecond=0).isoformat()}}
+
+        for message_text, kwargs in self.__list_messages(INCIDENT, state):
+            bot.send_message(self.chat_id, message_text, **kwargs)
+
         set_state(self.user_id, ConversationState.CATEGORY, state)
 
     def category(self, state):
         selected_category = self.__get_button_id(INCIDENT, self.message.text)
         state["incident"]["type"] = selected_category
 
-        for message_text, kwargs in self.__list_messages(DISTANCE, incident_id=selected_category):
+        for message_text, kwargs in self.__list_messages(DISTANCE, state):
             bot.send_message(self.chat_id, message_text % {INCIDENT: self.message.text.lower()}, **kwargs)
 
         update_state(self.user_id, ConversationState.LOCATION_DETAILS, state)
@@ -96,7 +99,7 @@ class ConversationHandler:
     def process_location_details(self, state):
         state["incident"]["distance"] = self.__get_button_id(DISTANCE, self.message.text)
 
-        for message_text, kwargs in self.__list_messages(TIME, incident_id=state["incident"]["type"]):
+        for message_text, kwargs in self.__list_messages(TIME, state):
             bot.send_message(self.chat_id, message_text, **kwargs)
 
         update_state(self.user_id, ConversationState.TIME, state)
@@ -104,7 +107,7 @@ class ConversationHandler:
     def process_time_details(self, state):
         state["incident"]["time"] = self.__get_button_id(TIME, self.message.text)
 
-        for message_text, kwargs in self.__list_messages(END):
+        for message_text, kwargs in self.__list_messages(END, state):
             bot.send_message(self.chat_id, message_text, **kwargs)
 
         self.start()

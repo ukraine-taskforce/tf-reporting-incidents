@@ -48,19 +48,19 @@
     {
       "conditional_text": [
         {
-          "condition": "\"%(incident_id)s\" == \"BOMBING_OR_EXPLOSION\"",
+          "condition": "\"{state[incident][type]}\" == \"BOMBING_OR_EXPLOSION\"",
           "text": {
             "en": "How close did the bombing or explosion happen to the location you shared?"
           }
         },
         {
-          "condition": "\"%(incident_id)s\" == \"MILITARY_ON_FOOT\"",
+          "condition": "\"{state[incident][type]}\" == \"MILITARY_ON_FOOT\"",
           "text": {
             "en": "How close did you spot the military on foot to the location you shared?"
           }
         },
         {
-          "condition": "\"%(incident_id)s\" == \"MILITARY_ON_VEHICLE\"",
+          "condition": "\"{state[incident][type]}\" == \"MILITARY_ON_VEHICLE\"",
           "text": {
             "en": "How close did you spot the military on vehicle to the location you shared?"
           }
@@ -87,7 +87,7 @@
         },
         {
           "id": "NOT_SURE",
-          "condition": "\"%(incident_id)s\" == \"BOMBING_OR_EXPLOSION\"",
+          "condition": "\"{state[incident][type]}\" == \"BOMBING_OR_EXPLOSION\"",
           "text": {
             "en": "I am not sure"
           }
@@ -99,19 +99,19 @@
     {
       "conditional_text": [
         {
-          "condition": "\"%(incident_id)s\" == \"BOMBING_OR_EXPLOSION\"",
+          "condition": "\"{state[incident][type]}\" == \"BOMBING_OR_EXPLOSION\"",
           "text": {
             "en": "When did the bombing or explosion happen?"
           }
         },
         {
-          "condition": "\"%(incident_id)s\" == \"MILITARY_ON_FOOT\"",
+          "condition": "\"{state[incident][type]}\" == \"MILITARY_ON_FOOT\"",
           "text": {
             "en": "When did you spot military on foot?"
           }
         },
         {
-          "condition": "\"%(incident_id)s\" == \"MILITARY_ON_VEHICLE\"",
+          "condition": "\"{state[incident][type]}\" == \"MILITARY_ON_VEHICLE\"",
           "text": {
             "en": "When did you spot military on vehicle?"
           }
