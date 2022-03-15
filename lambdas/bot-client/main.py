@@ -92,7 +92,7 @@ class ConversationHandler:
         state["incident"]["type"] = selected_category
 
         for message_text, kwargs in self.__list_messages(DISTANCE, state):
-            bot.send_message(self.chat_id, message_text % {INCIDENT: self.message.text.lower()}, **kwargs)
+            bot.send_message(self.chat_id, message_text, **kwargs)
 
         update_state(self.user_id, ConversationState.LOCATION_DETAILS, state)
 
