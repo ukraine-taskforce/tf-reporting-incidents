@@ -87,8 +87,59 @@
         },
         {
           "id": "NOT_SURE",
+          "condition": "\"%(incident_id)s\" == \"BOMBING_OR_EXPLOSION\"",
           "text": {
             "en": "I am not sure"
+          }
+        }
+      ]
+    }
+  ],
+  "time": [
+    {
+      "conditional_text": [
+        {
+          "condition": "\"%(incident_id)s\" == \"BOMBING_OR_EXPLOSION\"",
+          "text": {
+            "en": "When did the bombing or explosion happen?"
+          }
+        },
+        {
+          "condition": "\"%(incident_id)s\" == \"MILITARY_ON_FOOT\"",
+          "text": {
+            "en": "When did you spot military on foot?"
+          }
+        },
+        {
+          "condition": "\"%(incident_id)s\" == \"MILITARY_ON_VEHICLE\"",
+          "text": {
+            "en": "When did you spot military on vehicle?"
+          }
+        }
+      ],
+      "reply_markup": [
+        {
+          "id": "NOW",
+          "text": {
+            "en": "Right now"
+          }
+        },
+        {
+          "id": "LESS_THAN_HOUR",
+          "text": {
+            "en": "Less than an hour ago"
+          }
+        },
+        {
+          "id": "ONE_THREE_HOURS_AGO",
+          "text": {
+            "en": "1-3 hours ago"
+          }
+        },
+        {
+          "id": "MORE_THAN_THREE_HOURS",
+          "text": {
+            "en": "More than 3 hours ago"
           }
         }
       ]

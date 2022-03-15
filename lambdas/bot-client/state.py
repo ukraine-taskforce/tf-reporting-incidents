@@ -19,6 +19,7 @@ class ConversationState(Enum):
     LOCATION = 1
     CATEGORY = 2
     LOCATION_DETAILS = 3
+    TIME = 4
 
 
 def get_state(user_id):

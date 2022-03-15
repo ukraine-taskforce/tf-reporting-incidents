@@ -16,7 +16,7 @@ logger = logging.getLogger(__name__)
 
 bot = init_bot()
 
-START, INCIDENT, DISTANCE, END = "start", "incident", "distance", "end"
+START, INCIDENT, DISTANCE, TIME, END = "start", "incident", "distance", "time", "end"
 
 
 class ConversationHandler:
@@ -42,6 +42,9 @@ class ConversationHandler:
             else:
                 markup = ReplyKeyboardMarkup(row_width=1, resize_keyboard=True)
                 for button in message["reply_markup"]:
+                    if "condition" in button and not eval(button["condition"] % condition_parameters):
+                        continue
+
                     markup.add(KeyboardButton(button["text"].get(self.language_code, button["text"]["en"]),
                                               **button.get("kwargs", {})))
 
@@ -93,8 +96,17 @@ class ConversationHandler:
     def process_location_details(self, state):
         state["incident"]["distance"] = self.__get_button_id(DISTANCE, self.message.text)
 
+        for message_text, kwargs in self.__list_messages(TIME, incident_id=state["incident"]["type"]):
+            bot.send_message(self.chat_id, message_text, **kwargs)
+
+        update_state(self.user_id, ConversationState.TIME, state)
+
+    def process_time_details(self, state):
+        state["incident"]["time"] = self.__get_button_id(TIME, self.message.text)
+
         for message_text, kwargs in self.__list_messages(END):
             bot.send_message(self.chat_id, message_text, **kwargs)
+
         self.start()
 
         response = send_report(state)
@@ -140,5 +152,7 @@ def lambda_handler(event: dict, context):
     elif update.message.text in conv_handler.get_reply_options(
             DISTANCE) and conv_state == ConversationState.LOCATION_DETAILS:
         conv_handler.process_location_details(state)
+    elif update.message.text in conv_handler.get_reply_options(TIME) and conv_state == ConversationState.TIME:
+        conv_handler.process_time_details(state)
 
     return {'statusCode': 200}
