@@ -78,6 +78,7 @@ resource "aws_lambda_permission" "authorizerHandler_ApiGtwPermission" {
   source_arn = "${aws_api_gateway_rest_api.reporting-incidents.execution_arn}/*/*/*"
 }
 
+# API Gateway: User Authorizer
 resource "aws_api_gateway_authorizer" "api-gateway-authorizer" {
   name                   = "apiGatewayAuthorizer"
   rest_api_id            = aws_api_gateway_rest_api.reporting-incidents.id

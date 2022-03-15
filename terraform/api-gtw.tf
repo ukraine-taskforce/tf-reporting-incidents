@@ -200,6 +200,11 @@ resource "aws_api_gateway_method_response" "reporting-incidents_incident-mock-ge
   resource_id = aws_api_gateway_resource.reporting-incidents_incident-mock-resource.id
   http_method = aws_api_gateway_method.reporting-incidents_get-mock-incident.http_method
   status_code = "200"
+
+  response_parameters = {
+    "method.response.header.Access-Control-Allow-Headers" = true
+    "method.response.header.Access-Control-Allow-Origin"  = true
+  }
 }
 
 data "template_file" "reporting-incidents_incident-mock-get-response_template" {
@@ -214,6 +219,11 @@ resource "aws_api_gateway_integration_response" "reporting-incidents_incident-mo
 
   response_templates = {
     "application/json" = data.template_file.reporting-incidents_incident-mock-get-response_template.rendered
+  }
+
+  response_parameters = {
+    "method.response.header.Access-Control-Allow-Headers" = "'Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token'"
+    "method.response.header.Access-Control-Allow-Origin"  = "'*'"
   }
 
   depends_on = [
@@ -245,6 +255,11 @@ resource "aws_api_gateway_method_response" "reporting-incidents_incident-get-res
   resource_id = aws_api_gateway_resource.reporting-incidents_incident-resource.id
   http_method = aws_api_gateway_method.reporting-incidents_get-incident.http_method
   status_code = "200"
+
+  response_parameters = {
+    "method.response.header.Access-Control-Allow-Headers" = true
+    "method.response.header.Access-Control-Allow-Origin"  = true
+  }
 }
 
 # Enable CORS on GET Incident endpoint

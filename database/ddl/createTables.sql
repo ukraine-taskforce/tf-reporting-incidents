@@ -19,6 +19,7 @@ create table ugt.incident
             primary key,
     incident_timestamp timestamp with time zone not null,
     incident_type      varchar(30)              not null,
+    time               varchar(30)              not null,
     location_lat       double precision,
     location_lon       double precision,
     location           point,

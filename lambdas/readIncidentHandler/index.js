@@ -10,6 +10,11 @@ exports.handler = async (event) => {
     const filter = event.queryStringParameters;
     return {
         statusCode: 200,
+        headers: {
+            'Content-Type': 'application/json',
+            'Access-Control-Allow-Headers': 'Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token',
+            'Access-Control-Allow-Origin': '*'
+        },
         body: mapOutput(await selectIncidents(dataClient, filter))
     };
 }
@@ -19,6 +24,7 @@ const mapOutput = (incidents = []) => {
         return {
             timestamp: i.incident_timestamp,
             type: i.incident_type,
+            time: i.time,
             location: {
                 lat: i.location_lat,
                 lon: i.location_lon

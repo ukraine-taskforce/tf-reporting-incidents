@@ -2,10 +2,9 @@ exports.handler = async (event) => {
 
     console.log('Authorizer event: ', event);
 
-    const auth = event.authorizationToken === '123' ? 'Allow' : 'Deny';
+    const auth = event.authorizationToken === '3a0ac513178a9a227657432f7030f5c4' ? 'Allow' : 'Deny';
 
     return {
-        principalId: "abc123",
         policyDocument: {
             Version: "2012-10-17",
             Statement: [
